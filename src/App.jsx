@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react'
 import { arrayMove } from '@dnd-kit/sortable'
 import RankingList from './components/RankingList'
+import Leaderboard from './components/Leaderboard'
 import defaultFigures from './data/figures.json'
 
 const API_URL = '/api/rankings'
@@ -24,6 +25,8 @@ export default function App() {
   const [shuffling, setShuffling] = useState(false)
   const [search, setSearch] = useState('')
   const [highlightId, setHighlightId] = useState(null)
+  const [view, setView] = useState('ranking')
+  const [submitFlash, setSubmitFlash] = useState(false)
   const initialOrder = useRef(null)
   const gridRef = useRef(null)
 
@@ -96,6 +99,24 @@ export default function App() {
     })
   }
 
+  async function handleSubmit() {
+    const rankings = figures.slice(0, tier).map(f => f.id)
+    try {
+      await fetch('/api/submissions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tier, rankings }),
+      })
+      setSubmitFlash(true)
+      setTimeout(() => {
+        setSubmitFlash(false)
+        setView('leaderboard')
+      }, 1200)
+    } catch (e) {
+      console.error('Submit failed:', e)
+    }
+  }
+
   // Search matching
   const searchResults = search.trim()
     ? figures.filter(f =>
@@ -107,7 +128,6 @@ export default function App() {
   function handleSearchSelect(id) {
     setHighlightId(id)
     setSearch('')
-    // Scroll to the card
     const el = document.querySelector(`[data-figure-id="${id}"]`)
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' })
     setTimeout(() => setHighlightId(null), 2000)
@@ -125,78 +145,117 @@ export default function App() {
         {saving && <span className="save-indicator">Saving...</span>}
       </header>
 
-      <div className="controls">
-        <div className="tier-selector">
-          {TIER_OPTIONS.map(n => (
-            <button
-              key={n}
-              className={`tier-btn ${tier === n ? 'active' : ''}`}
-              onClick={() => setTier(n)}
-            >
-              Top {n}
-            </button>
-          ))}
-        </div>
-        <div className="controls-right">
-          <div className="search-wrapper">
-            <input
-              type="text"
-              className="search-input"
-              placeholder="Search figures..."
-              value={search}
-              onChange={e => setSearch(e.target.value)}
-            />
-            {searchResults.length > 0 && (
-              <div className="search-dropdown">
-                {searchResults.slice(0, 8).map(f => (
-                  <button
-                    key={f.id}
-                    className="search-result"
-                    onClick={() => handleSearchSelect(f.id)}
-                  >
-                    <span className="search-result-id">{f.id}</span>
-                    <span className="search-result-name">{f.name}</span>
-                    <span className="search-result-rank">
-                      #{figures.findIndex(fig => fig.id === f.id) + 1}
-                    </span>
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-          <button className="action-btn" onClick={handleShuffle} title="Shuffle">
-            <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M13.5 2.5l2 2-2 2M13.5 9.5l2 2-2 2M1 4.5h3.5a4 4 0 013.46 2l.54.93a4 4 0 003.46 2H15M1 11.5h3.5a4 4 0 003.46-2l.54-.93a4 4 0 013.46-2H15"/>
-            </svg>
-            Shuffle
-          </button>
-          <button className="action-btn" onClick={handleReset} title="Reset">
-            <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M1 1v5h5M15 15v-5h-5"/>
-              <path d="M13.5 6A6 6 0 003 3l-2 2M2.5 10a6 6 0 0010.5 3l2-2"/>
-            </svg>
-            Reset
-          </button>
-          <button className="action-btn export-btn" onClick={handleExport} title="Export as image">
-            <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M14 10v3a1 1 0 01-1 1H3a1 1 0 01-1-1v-3M8 2v8M5 7l3 3 3-3"/>
-            </svg>
-            Export
-          </button>
-        </div>
-      </div>
+      {/* Nav Tabs */}
+      <nav className="nav-tabs">
+        <button
+          className={`nav-tab ${view === 'ranking' ? 'active' : ''}`}
+          onClick={() => setView('ranking')}
+        >
+          Rankings
+        </button>
+        <button
+          className={`nav-tab ${view === 'leaderboard' ? 'active' : ''}`}
+          onClick={() => setView('leaderboard')}
+        >
+          Leaderboard
+        </button>
+      </nav>
 
-      <main>
-        <RankingList
-          ref={gridRef}
-          figures={figures}
-          prevOrder={prevOrder}
-          tier={tier}
-          shuffling={shuffling}
-          highlightId={highlightId}
-          onReorder={handleReorder}
-        />
-      </main>
+      {/* Submit flash */}
+      {submitFlash && (
+        <div className="submit-flash">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <circle cx="10" cy="10" r="9" stroke="#00ff66" strokeWidth="2"/>
+            <path d="M6 10l3 3 5-6" stroke="#00ff66" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+          Ranking Submitted!
+        </div>
+      )}
+
+      {view === 'ranking' ? (
+        <>
+          <div className="controls">
+            <div className="tier-selector">
+              {TIER_OPTIONS.map(n => (
+                <button
+                  key={n}
+                  className={`tier-btn ${tier === n ? 'active' : ''}`}
+                  onClick={() => setTier(n)}
+                >
+                  Top {n}
+                </button>
+              ))}
+            </div>
+            <div className="controls-right">
+              <div className="search-wrapper">
+                <input
+                  type="text"
+                  className="search-input"
+                  placeholder="Search figures..."
+                  value={search}
+                  onChange={e => setSearch(e.target.value)}
+                />
+                {searchResults.length > 0 && (
+                  <div className="search-dropdown">
+                    {searchResults.slice(0, 8).map(f => (
+                      <button
+                        key={f.id}
+                        className="search-result"
+                        onClick={() => handleSearchSelect(f.id)}
+                      >
+                        <span className="search-result-id">{f.id}</span>
+                        <span className="search-result-name">{f.name}</span>
+                        <span className="search-result-rank">
+                          #{figures.findIndex(fig => fig.id === f.id) + 1}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+              <button className="action-btn" onClick={handleShuffle} title="Shuffle">
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M13.5 2.5l2 2-2 2M13.5 9.5l2 2-2 2M1 4.5h3.5a4 4 0 013.46 2l.54.93a4 4 0 003.46 2H15M1 11.5h3.5a4 4 0 003.46-2l.54-.93a4 4 0 013.46-2H15"/>
+                </svg>
+                Shuffle
+              </button>
+              <button className="action-btn" onClick={handleReset} title="Reset">
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M1 1v5h5M15 15v-5h-5"/>
+                  <path d="M13.5 6A6 6 0 003 3l-2 2M2.5 10a6 6 0 0010.5 3l2-2"/>
+                </svg>
+                Reset
+              </button>
+              <button className="action-btn export-btn" onClick={handleExport} title="Export as image">
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M14 10v3a1 1 0 01-1 1H3a1 1 0 01-1-1v-3M8 2v8M5 7l3 3 3-3"/>
+                </svg>
+                Export
+              </button>
+              <button className="action-btn submit-btn" onClick={handleSubmit} title="Submit ranking">
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M14 2L2 8.5l4.5 1.8M14 2l-5.5 8.3M8.5 10.3V14l2.2-2.5"/>
+                </svg>
+                Submit
+              </button>
+            </div>
+          </div>
+
+          <main>
+            <RankingList
+              ref={gridRef}
+              figures={figures}
+              prevOrder={prevOrder}
+              tier={tier}
+              shuffling={shuffling}
+              highlightId={highlightId}
+              onReorder={handleReorder}
+            />
+          </main>
+        </>
+      ) : (
+        <Leaderboard allFigures={figures} />
+      )}
     </div>
   )
 }

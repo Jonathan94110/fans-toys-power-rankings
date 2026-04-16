@@ -12,21 +12,9 @@
     "year": 2025
   },
   {
-    "id": "FT-52",
-    "name": "Aussie",
-    "img": "https://fans.toys/images/ft52-aussie-01.jpg",
-    "year": 2022
-  },
-  {
     "id": "FT-60",
     "name": "Oceanus",
     "img": "https://fans.toys/images/ft-60-001.jpg",
-    "year": null
-  },
-  {
-    "id": "FT-32",
-    "name": "Gargantus",
-    "img": "https://fans.toys/images/ft32-001.jpg",
     "year": null
   },
   {
@@ -60,10 +48,28 @@
     "year": 2025
   },
   {
+    "id": "FT-53",
+    "name": "Parkour",
+    "img": "https://fans.toys/images/ft-53-001.jpg",
+    "year": 2023
+  },
+  {
+    "id": "FM-01",
+    "name": "Leader",
+    "img": "https://fans.toys/images/fm-01-001.jpg",
+    "year": null
+  },
+  {
     "id": "FT-32A",
     "name": "Gehry",
     "img": "https://fans.toys/images/ft-32a001.jpg",
     "year": 2024
+  },
+  {
+    "id": "FT-32",
+    "name": "Gargantus",
+    "img": "https://fans.toys/images/ft32-001.jpg",
+    "year": null
   },
   {
     "id": "FT-23",
@@ -72,10 +78,10 @@
     "year": 2018
   },
   {
-    "id": "FM-01",
-    "name": "Leader",
-    "img": "https://fans.toys/images/fm-01-001.jpg",
-    "year": null
+    "id": "FT-46",
+    "name": "Tesla 2.0",
+    "img": "https://fans.toys/images/ft46-tesla-v2-10.jpg",
+    "year": 2022
   },
   {
     "id": "FT-49",
@@ -90,16 +96,16 @@
     "year": 2015
   },
   {
-    "id": "FT-53",
-    "name": "Parkour",
-    "img": "https://fans.toys/images/ft-53-001.jpg",
-    "year": 2023
-  },
-  {
     "id": "FT-32B",
     "name": "Wright",
     "img": "https://fans.toys/images/ft-32b001.jpg",
     "year": 2025
+  },
+  {
+    "id": "FT-30",
+    "name": "Ethereaon",
+    "img": "https://fans.toys/images/ft-30-001.jpg",
+    "year": 2024
   },
   {
     "id": "FT-27",
@@ -108,9 +114,9 @@
     "year": 2017
   },
   {
-    "id": "FT-46",
-    "name": "Tesla 2.0",
-    "img": "https://fans.toys/images/ft46-tesla-v2-10.jpg",
+    "id": "FT-52",
+    "name": "Aussie",
+    "img": "https://fans.toys/images/ft52-aussie-01.jpg",
     "year": 2022
   },
   {
@@ -118,6 +124,12 @@
     "name": "Mercenary",
     "img": "https://fans.toys/images/ft-13-001.jpg",
     "year": 2015
+  },
+  {
+    "id": "FT-48",
+    "name": "Jive",
+    "img": "https://fans.toys/images/ft48-jive-01.jpg",
+    "year": 2022
   },
   {
     "id": "FT-17",
@@ -130,12 +142,6 @@
     "name": "Smoke",
     "img": "https://fans.toys/images/fm-08-001.jpg",
     "year": null
-  },
-  {
-    "id": "FT-30",
-    "name": "Ethereaon",
-    "img": "https://fans.toys/images/ft-30-001.jpg",
-    "year": 2024
   },
   {
     "id": "FT-25",
@@ -214,12 +220,6 @@
     "name": "Thomas",
     "img": "https://fans.toys/images/ft44-001.jpg",
     "year": 2020
-  },
-  {
-    "id": "FT-48",
-    "name": "Jive",
-    "img": "https://fans.toys/images/ft48-jive-01.jpg",
-    "year": 2022
   },
   {
     "id": "FT-51",
