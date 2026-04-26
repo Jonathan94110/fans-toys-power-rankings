@@ -1,18 +1,22 @@
 import React, { useState, useEffect } from 'react'
 
-export default function Leaderboard({ allFigures }) {
+function apiPath(path, brandId) {
+  return `${path}?brand=${encodeURIComponent(brandId)}`
+}
+
+export default function Leaderboard({ allFigures, brandId }) {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [viewingId, setViewingId] = useState(null)
 
   useEffect(() => {
     loadLeaderboard()
-  }, [])
+  }, [brandId])
 
   async function loadLeaderboard() {
     setLoading(true)
     try {
-      const res = await fetch('/api/leaderboard')
+      const res = await fetch(apiPath('/api/leaderboard', brandId))
       const json = await res.json()
       setData(json)
       setViewingId(null)
@@ -25,7 +29,7 @@ export default function Leaderboard({ allFigures }) {
   async function loadSubmission(id) {
     setLoading(true)
     try {
-      const res = await fetch(`/api/submissions/${id}`)
+      const res = await fetch(apiPath(`/api/submissions/${id}`, brandId))
       const json = await res.json()
       setData(prev => ({
         ...prev,

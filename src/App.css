@@ -102,6 +102,43 @@ body::after {
 }
 
 /* Nav Tabs */
+.brand-tabs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  max-width: 420px;
+  margin: 0 auto 0.75rem;
+}
+
+.brand-tab {
+  min-width: 0;
+  background: #0f0f0f;
+  border: 1px solid #2a0000;
+  color: #9a2222;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 0.55rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.brand-tab:hover {
+  color: #ff3333;
+  border-color: #ff0000;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.18);
+}
+
+.brand-tab.active {
+  background: linear-gradient(180deg, #ff1a1a 0%, #b00000 100%);
+  border-color: #ff3333;
+  color: #fff;
+  box-shadow: 0 0 16px rgba(255, 0, 0, 0.38);
+}
+
 .nav-tabs {
   display: flex;
   justify-content: center;
@@ -373,6 +410,27 @@ body::after {
   text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
 }
 
+.brand-empty {
+  border-top: 1px solid #1a0000;
+  margin-top: 1rem;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.brand-empty h2 {
+  color: #ff3333;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 8px rgba(255, 0, 0, 0.35);
+}
+
+.brand-empty p {
+  color: #661111;
+  font-size: 0.85rem;
+}
+
 /* Grid Layout */
 .ranking-grid {
   display: grid;
@@ -590,17 +648,25 @@ body::after {
   font-size: 0.7rem;
 }
 
-/* Card Image — fills entire card as background */
+/* Card Image */
 .card-image {
   position: absolute;
   inset: 0;
   z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 0.15rem 1rem;
+  background:
+    radial-gradient(circle at 50% 48%, rgba(255, 255, 255, 0.08), transparent 46%),
+    linear-gradient(145deg, #161616, #070707);
 }
 
 .card-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   filter: drop-shadow(0 0 8px rgba(255, 0, 0, 0.3));
   pointer-events: none;
   transition: filter 0.3s, transform 0.3s;
@@ -608,7 +674,7 @@ body::after {
 
 .grid-card:hover .card-image img {
   filter: drop-shadow(0 0 14px rgba(255, 0, 0, 0.5));
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 
 .card-placeholder {
@@ -841,12 +907,20 @@ body::after {
 .lb-card-image {
   position: absolute;
   inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 0.15rem 1rem;
+  background:
+    radial-gradient(circle at 50% 48%, rgba(255, 255, 255, 0.08), transparent 46%),
+    linear-gradient(145deg, #161616, #070707);
 }
 
 .lb-card-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
 }
 
 .lb-card-placeholder {

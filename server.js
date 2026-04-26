@@ -12,6 +12,16 @@ const PORT = process.env.PORT || 3001
 const DATA_DIR = join(__dirname, 'data')
 const RANKINGS_FILE = join(DATA_DIR, 'rankings.json')
 const SUBMISSIONS_FILE = join(DATA_DIR, 'submissions.json')
+const BRAND_FILES = {
+  'fans-toys': {
+    rankings: RANKINGS_FILE,
+    submissions: SUBMISSIONS_FILE,
+  },
+  'x-transbots': {
+    rankings: join(DATA_DIR, 'rankings-x-transbots.json'),
+    submissions: join(DATA_DIR, 'submissions-x-transbots.json'),
+  },
+}
 
 app.use(cors())
 app.use(express.json())
@@ -35,15 +45,33 @@ function writeJSON(file, data) {
   writeFileSync(file, JSON.stringify(data, null, 2))
 }
 
+function getBrandFiles(req, res) {
+  const brand = req.query.brand || 'fans-toys'
+  const files = BRAND_FILES[brand]
+
+  if (!files) {
+    res.status(400).json({ error: 'Unknown brand' })
+    return null
+  }
+
+  return { brand, ...files }
+}
+
 // ─── Rankings (live working order) ───
 
 app.get('/api/rankings', (req, res) => {
-  res.json(readJSON(RANKINGS_FILE))
+  const files = getBrandFiles(req, res)
+  if (!files) return
+
+  res.json(readJSON(files.rankings))
 })
 
 app.put('/api/rankings', (req, res) => {
+  const files = getBrandFiles(req, res)
+  if (!files) return
+
   try {
-    writeJSON(RANKINGS_FILE, req.body)
+    writeJSON(files.rankings, req.body)
     res.json({ ok: true })
   } catch (e) {
     console.error('Error saving rankings:', e)
@@ -54,22 +82,29 @@ app.put('/api/rankings', (req, res) => {
 // ─── Submissions (snapshots) ───
 
 app.get('/api/submissions', (req, res) => {
-  const subs = readJSON(SUBMISSIONS_FILE)
+  const files = getBrandFiles(req, res)
+  if (!files) return
+
+  const subs = readJSON(files.submissions)
   res.json(subs.sort((a, b) => b.id - a.id))
 })
 
 app.post('/api/submissions', (req, res) => {
+  const files = getBrandFiles(req, res)
+  if (!files) return
+
   try {
-    const subs = readJSON(SUBMISSIONS_FILE)
+    const subs = readJSON(files.submissions)
     const { tier, rankings } = req.body
     const newSub = {
       id: subs.length > 0 ? Math.max(...subs.map(s => s.id)) + 1 : 1,
+      brand: files.brand,
       date: new Date().toISOString(),
       tier: tier || 25,
       rankings: rankings || [],
     }
     subs.push(newSub)
-    writeJSON(SUBMISSIONS_FILE, subs)
+    writeJSON(files.submissions, subs)
     res.json(newSub)
   } catch (e) {
     console.error('Error saving submission:', e)
@@ -78,7 +113,10 @@ app.post('/api/submissions', (req, res) => {
 })
 
 app.get('/api/leaderboard', (req, res) => {
-  const subs = readJSON(SUBMISSIONS_FILE)
+  const files = getBrandFiles(req, res)
+  if (!files) return
+
+  const subs = readJSON(files.submissions)
   if (subs.length === 0) {
     return res.json({ current: null, movements: {}, submissionCount: 0, previous: null })
   }
@@ -112,7 +150,10 @@ app.get('/api/leaderboard', (req, res) => {
 })
 
 app.get('/api/submissions/:id', (req, res) => {
-  const subs = readJSON(SUBMISSIONS_FILE)
+  const files = getBrandFiles(req, res)
+  if (!files) return
+
+  const subs = readJSON(files.submissions)
   const sub = subs.find(s => s.id === parseInt(req.params.id))
   if (!sub) return res.status(404).json({ error: 'Not found' })
 
