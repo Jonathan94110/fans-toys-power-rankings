@@ -55,11 +55,37 @@ body::after {
   position: relative;
 }
 
+.app.presenter-mode {
+  max-width: none;
+  width: 100%;
+  padding: 0.9rem 1.15rem 1.5rem;
+}
+
+.app.brand-eighties-birthday {
+  --party-pink: #ff3fb7;
+  --party-cyan: #28d8ff;
+  --party-gold: #ffd24a;
+  --party-violet: #7f5cff;
+}
+
 /* Header */
 .app-header {
   text-align: center;
   margin-bottom: 0.75rem;
   position: relative;
+}
+
+.header-topline,
+.header-status-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.header-topline {
+  margin-bottom: 0.65rem;
 }
 
 .header-badge {
@@ -101,44 +127,79 @@ body::after {
   box-shadow: 0 0 8px #ff0000, 0 0 20px rgba(255, 0, 0, 0.4);
 }
 
-/* Nav Tabs */
+.app.brand-eighties-birthday .header-badge {
+  border-color: rgba(40, 216, 255, 0.78);
+  color: var(--party-cyan);
+  text-shadow: 0 0 12px rgba(40, 216, 255, 0.65);
+  box-shadow:
+    0 0 18px rgba(40, 216, 255, 0.2),
+    inset 0 0 16px rgba(255, 63, 183, 0.08);
+}
+
+.app.brand-eighties-birthday .app-header h1 {
+  background: linear-gradient(180deg, var(--party-gold) 0%, var(--party-pink) 42%, var(--party-violet) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: drop-shadow(0 0 22px rgba(255, 63, 183, 0.34));
+}
+
+.app.brand-eighties-birthday .app-header::after {
+  background: linear-gradient(90deg, transparent, var(--party-cyan), var(--party-pink), transparent);
+  box-shadow: 0 0 12px rgba(40, 216, 255, 0.45), 0 0 24px rgba(255, 63, 183, 0.28);
+}
+
+.presenter-hint {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6c7882;
+}
+
 .brand-tabs {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 6px;
-  max-width: 420px;
-  margin: 0 auto 0.75rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0 0.85rem;
+  flex-wrap: wrap;
 }
 
 .brand-tab {
-  min-width: 0;
-  background: #0f0f0f;
-  border: 1px solid #2a0000;
-  color: #9a2222;
+  background: linear-gradient(180deg, #120b0b 0%, #0d0d0d 100%);
+  border: 1px solid #351010;
+  color: #b85c5c;
   font-family: 'Inter', sans-serif;
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   font-weight: 800;
-  padding: 0.55rem 0.8rem;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.2s;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .brand-tab:hover {
-  color: #ff3333;
-  border-color: #ff0000;
-  box-shadow: 0 0 10px rgba(255, 0, 0, 0.18);
+  color: #ffd0d0;
+  border-color: #ff3333;
+  box-shadow: 0 0 14px rgba(255, 0, 0, 0.18);
 }
 
 .brand-tab.active {
-  background: linear-gradient(180deg, #ff1a1a 0%, #b00000 100%);
-  border-color: #ff3333;
+  background: linear-gradient(180deg, #ff3333 0%, #c20000 100%);
+  border-color: #ff6666;
   color: #fff;
-  box-shadow: 0 0 16px rgba(255, 0, 0, 0.38);
+  box-shadow: 0 0 18px rgba(255, 0, 0, 0.28);
 }
 
+.app.brand-eighties-birthday .brand-tab.active {
+  background: linear-gradient(135deg, var(--party-pink), var(--party-violet) 55%, var(--party-cyan));
+  border-color: rgba(255, 210, 74, 0.72);
+  color: #fff;
+  box-shadow: 0 0 20px rgba(255, 63, 183, 0.28), 0 0 24px rgba(40, 216, 255, 0.16);
+}
+
+/* Nav Tabs */
 .nav-tabs {
   display: flex;
   justify-content: center;
@@ -387,6 +448,34 @@ body::after {
   font-size: 0.6rem;
 }
 
+.search-group-label,
+.search-more-count {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.45rem 0.6rem;
+  border-bottom: 1px solid #1a0000;
+  color: #884444;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.search-group-label strong {
+  color: #ff3333;
+  font-size: 0.65rem;
+}
+
+.search-more-count {
+  justify-content: center;
+  border-bottom: none;
+  color: #aa5555;
+  text-align: center;
+}
+
 .save-indicator {
   display: inline-block;
   margin-top: 0.25rem;
@@ -408,27 +497,6 @@ body::after {
   color: #ff3333;
   font-size: 1.1rem;
   text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
-}
-
-.brand-empty {
-  border-top: 1px solid #1a0000;
-  margin-top: 1rem;
-  padding: 4rem 1rem;
-  text-align: center;
-}
-
-.brand-empty h2 {
-  color: #ff3333;
-  font-size: 1.2rem;
-  font-weight: 800;
-  margin-bottom: 0.35rem;
-  text-transform: uppercase;
-  text-shadow: 0 0 8px rgba(255, 0, 0, 0.35);
-}
-
-.brand-empty p {
-  color: #661111;
-  font-size: 0.85rem;
 }
 
 /* Grid Layout */
@@ -482,6 +550,23 @@ body::after {
 @keyframes highlightPulse {
   0%, 100% { box-shadow: 0 0 12px rgba(255, 0, 0, 0.6), 0 0 30px rgba(255, 0, 0, 0.3); }
   50% { box-shadow: 0 0 20px rgba(255, 0, 0, 0.9), 0 0 50px rgba(255, 0, 0, 0.5); }
+}
+
+.grid-card.search-matched {
+  border-color: #ff3333;
+  box-shadow:
+    0 0 0 1px rgba(255, 0, 0, 0.35),
+    0 0 18px rgba(255, 0, 0, 0.22),
+    inset 0 0 16px rgba(255, 0, 0, 0.08);
+}
+
+.grid-card.search-matched .card-name {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.75);
+}
+
+.grid-card.search-matched .card-label {
+  color: #ff5555;
 }
 
 /* Neon border glow on hover */
@@ -550,6 +635,10 @@ body::after {
 
 .grid-card.greyed .card-image img {
   filter: grayscale(1) brightness(0.3);
+}
+
+.grid-card.greyed .card-image img.figure-fallback {
+  filter: grayscale(0.2) brightness(0.92);
 }
 
 .grid-card.greyed .card-overlay {
@@ -648,33 +737,126 @@ body::after {
   font-size: 0.7rem;
 }
 
-/* Card Image */
+/* Card Image — fills entire card as background */
 .card-image {
   position: absolute;
   inset: 0;
   z-index: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.55rem 0.15rem 1rem;
-  background:
-    radial-gradient(circle at 50% 48%, rgba(255, 255, 255, 0.08), transparent 46%),
-    linear-gradient(145deg, #161616, #070707);
 }
 
 .card-image img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  object-position: center;
   filter: drop-shadow(0 0 8px rgba(255, 0, 0, 0.3));
   pointer-events: none;
+  transform: scale(0.94);
   transition: filter 0.3s, transform 0.3s;
 }
 
 .grid-card:hover .card-image img {
   filter: drop-shadow(0 0 14px rgba(255, 0, 0, 0.5));
-  transform: scale(1.01);
+  transform: scale(0.98);
+}
+
+.app.brand-eighties-birthday .grid-card {
+  border-color: rgba(40, 216, 255, 0.18);
+  background: linear-gradient(145deg, #151328, #09090d 58%, #1d0d1c);
+}
+
+.app.brand-eighties-birthday .grid-card:hover {
+  border-color: var(--party-gold);
+  box-shadow:
+    0 0 0 1px rgba(255, 210, 74, 0.34),
+    0 0 22px rgba(255, 63, 183, 0.28),
+    0 0 30px rgba(40, 216, 255, 0.16);
+}
+
+.card-fallback,
+.lb-card-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 1rem;
+  text-align: center;
+  background:
+    radial-gradient(circle at top right, rgba(255, 70, 70, 0.18), transparent 30%),
+    radial-gradient(circle at bottom left, rgba(34, 145, 255, 0.18), transparent 30%),
+    linear-gradient(145deg, #191d28, #0b0d12 68%, #25070a);
+  border: 1px solid rgba(255, 80, 80, 0.25);
+}
+
+.card-fallback-badge,
+.lb-card-fallback-badge {
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ff4545, #9f141b);
+  color: #fff;
+  font-size: 0.52rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.card-fallback-id,
+.lb-card-fallback-id {
+  color: #f4f7fb;
+  font-size: 1.35rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 16px rgba(255, 72, 72, 0.2);
+}
+
+.card-fallback-name,
+.lb-card-fallback-name {
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 100%;
+}
+
+.card-fallback-meta,
+.lb-card-fallback-meta {
+  color: #9ca8bb;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.app.brand-eighties-birthday .card-fallback,
+.app.brand-eighties-birthday .lb-card-fallback {
+  background:
+    radial-gradient(circle at top right, rgba(40, 216, 255, 0.2), transparent 32%),
+    radial-gradient(circle at bottom left, rgba(255, 63, 183, 0.2), transparent 34%),
+    linear-gradient(145deg, #17162b, #090a10 64%, #261126);
+  border-color: rgba(255, 210, 74, 0.28);
+}
+
+.app.brand-eighties-birthday .card-fallback-badge,
+.app.brand-eighties-birthday .lb-card-fallback-badge {
+  background: linear-gradient(135deg, var(--party-cyan), var(--party-pink));
+  color: #08080d;
+}
+
+.app.brand-eighties-birthday .card-fallback-id,
+.app.brand-eighties-birthday .lb-card-fallback-id {
+  color: var(--party-gold);
+  text-shadow: 0 0 18px rgba(255, 210, 74, 0.25);
+}
+
+.app.brand-eighties-birthday .card-label {
+  color: var(--party-cyan);
+  text-shadow: 0 0 8px rgba(40, 216, 255, 0.48), 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.grid-card.greyed .card-fallback {
+  opacity: 0.88;
+  border-color: rgba(255, 80, 80, 0.16);
 }
 
 .card-placeholder {
@@ -815,6 +997,372 @@ body::after {
   box-shadow: 0 0 16px rgba(0, 255, 102, 0.4) !important;
 }
 
+.presenter-btn {
+  color: #8dd9ff;
+  border-color: #163649;
+}
+
+.presenter-btn:hover,
+.presenter-btn.active {
+  background: #2ec5ff;
+  border-color: #2ec5ff;
+  color: #041017;
+  box-shadow: 0 0 18px rgba(46, 197, 255, 0.35);
+}
+
+.app.presenter-mode .app-header {
+  margin-bottom: 0.85rem;
+}
+
+.app.presenter-mode .app-header h1 {
+  font-size: clamp(3rem, 5vw, 4.4rem);
+}
+
+.app.presenter-mode .presenter-hint {
+  color: #b3e9ff;
+}
+
+.app.presenter-mode .nav-tabs {
+  margin-bottom: 0.8rem;
+}
+
+.app.presenter-mode .controls {
+  position: sticky;
+  top: 0.7rem;
+  z-index: 40;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid rgba(255, 0, 0, 0.14);
+  border-radius: 10px;
+  background:
+    linear-gradient(180deg, rgba(15, 15, 15, 0.92), rgba(8, 8, 8, 0.84)),
+    radial-gradient(circle at top, rgba(255, 0, 0, 0.06), transparent 60%);
+  backdrop-filter: blur(10px);
+}
+
+.app.presenter-mode .search-wrapper {
+  display: none;
+}
+
+.app.presenter-mode .ranking-grid,
+.app.presenter-mode .lb-grid {
+  gap: 10px;
+}
+
+.app.presenter-mode .grid-card,
+.app.presenter-mode .lb-card {
+  border-radius: 8px;
+}
+
+.app.presenter-mode .card-rank,
+.app.presenter-mode .lb-card-rank {
+  top: 6px;
+  left: 8px;
+  font-size: 2.6rem;
+}
+
+.app.presenter-mode .card-movement,
+.app.presenter-mode .lb-card-movement {
+  top: 8px;
+  right: 8px;
+  font-size: 0.95rem;
+}
+
+.app.presenter-mode .move-num,
+.app.presenter-mode .lb-move-up span,
+.app.presenter-mode .lb-move-down span {
+  font-size: 1rem;
+}
+
+.app.presenter-mode .card-name,
+.app.presenter-mode .lb-card-name {
+  bottom: 20px;
+  left: 8px;
+  right: 8px;
+  font-size: 0.84rem;
+}
+
+.app.presenter-mode .card-label,
+.app.presenter-mode .lb-card-id {
+  bottom: 6px;
+  left: 8px;
+  right: 8px;
+  font-size: 0.64rem;
+}
+
+.app.presenter-mode .tier-divider-label {
+  padding: 0.25rem 1.2rem;
+  font-size: 0.76rem;
+}
+
+.app.presenter-mode .lb-header {
+  margin-bottom: 1.2rem;
+}
+
+.app.presenter-mode .lb-header h2 {
+  font-size: 1.45rem;
+}
+
+.app.presenter-mode .lb-meta {
+  font-size: 0.8rem;
+}
+
+.app.presenter-mode .lb-history {
+  margin-top: 1rem;
+}
+
+/* Pop The Balloon */
+.balloon-mode {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.balloon-toolbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.balloon-stage {
+  min-height: 620px;
+  border: 1px solid rgba(255, 0, 0, 0.22);
+  border-radius: 8px;
+  padding: 1rem;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(255, 0, 0, 0.13), transparent 34%),
+    radial-gradient(circle at 80% 100%, rgba(46, 197, 255, 0.08), transparent 34%),
+    linear-gradient(180deg, rgba(18, 18, 18, 0.92), rgba(6, 6, 6, 0.96));
+  box-shadow: inset 0 0 28px rgba(255, 0, 0, 0.08), 0 0 24px rgba(0, 0, 0, 0.35);
+}
+
+.balloon-scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.balloon-scoreboard span {
+  border: 1px solid #2a0000;
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
+  background: rgba(10, 10, 10, 0.8);
+  color: #ff4444;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.balloon-card {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.92fr) minmax(280px, 1fr);
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+.balloon-figure-panel {
+  position: relative;
+  min-height: 540px;
+  border: 1px solid #3a0808;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #0c0c0c;
+  box-shadow: 0 0 22px rgba(255, 0, 0, 0.16);
+}
+
+.balloon-figure-panel img,
+.balloon-placeholder {
+  width: 100%;
+  height: 100%;
+  min-height: 540px;
+  object-fit: cover;
+  display: block;
+}
+
+.balloon-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff3333;
+  font-size: 3rem;
+  font-weight: 900;
+  background: linear-gradient(145deg, #191d28, #0b0d12 68%, #25070a);
+}
+
+.balloon-card-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.72) 0%, transparent 22%, transparent 64%, rgba(0, 0, 0, 0.88) 100%),
+    linear-gradient(135deg, rgba(0, 0, 0, 0.25), transparent 45%);
+  pointer-events: none;
+}
+
+.balloon-rank {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.9rem;
+  color: #ff1a1a;
+  font-size: 3.6rem;
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: 0 0 18px rgba(255, 0, 0, 0.8), 2px 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+.balloon-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 540px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 0, 0, 0.18);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(16, 16, 16, 0.94), rgba(8, 8, 8, 0.94)),
+    radial-gradient(circle at top right, rgba(255, 0, 0, 0.12), transparent 42%);
+}
+
+.balloon-id {
+  color: #ff3333;
+  font-size: 0.85rem;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.balloon-info h2 {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.08;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 16px rgba(255, 0, 0, 0.22);
+}
+
+.balloon-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.balloon-keep-btn,
+.balloon-pop-btn {
+  min-height: 48px;
+  border-radius: 4px;
+  border: 1px solid;
+  padding: 0.75rem 1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.balloon-keep-btn {
+  background: #0d1c12;
+  border-color: #0f6b31;
+  color: #47ff89;
+}
+
+.balloon-keep-btn:hover {
+  background: #00cc55;
+  border-color: #00ff66;
+  color: #001006;
+  box-shadow: 0 0 18px rgba(0, 255, 102, 0.32);
+}
+
+.balloon-pop-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  background: #230606;
+  border-color: #7a1111;
+  color: #fff;
+}
+
+.balloon-pop-btn:hover {
+  background: #ff0000;
+  border-color: #ff4d4d;
+  box-shadow: 0 0 22px rgba(255, 0, 0, 0.36);
+}
+
+.balloon-keep-btn:active,
+.balloon-pop-btn:active {
+  transform: scale(0.96);
+}
+
+.balloon-icon {
+  position: relative;
+  width: 22px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.balloon-shape {
+  width: 20px;
+  height: 24px;
+  border-radius: 50% 50% 46% 46%;
+  background: radial-gradient(circle at 35% 28%, #ff9a9a, #ff1616 48%, #8f0000 100%);
+  box-shadow: inset -4px -5px 7px rgba(80, 0, 0, 0.5), 0 0 8px rgba(255, 0, 0, 0.45);
+}
+
+.balloon-string {
+  position: absolute;
+  top: 22px;
+  width: 1px;
+  height: 8px;
+  background: #ffb3b3;
+}
+
+.balloon-card.popping .balloon-figure-panel {
+  animation: balloonPanelPop 0.32s ease-out;
+}
+
+.balloon-card.popping .balloon-pop-btn .balloon-shape {
+  animation: balloonPop 0.32s ease-out forwards;
+}
+
+@keyframes balloonPop {
+  0% { opacity: 1; transform: scale(1); }
+  45% { opacity: 1; transform: scale(1.35); }
+  100% { opacity: 0; transform: scale(0.08); }
+}
+
+@keyframes balloonPanelPop {
+  0% { transform: scale(1); filter: saturate(1); }
+  50% { transform: scale(1.025); filter: saturate(1.35); }
+  100% { transform: scale(1); filter: saturate(1); }
+}
+
+.balloon-complete {
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.balloon-complete h2 {
+  color: #ff1a1a;
+  font-size: 2rem;
+  text-shadow: 0 0 16px rgba(255, 0, 0, 0.4);
+}
+
+.balloon-complete p {
+  color: #b25a5a;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
 /* ════════════════════════════════════════════
    LEADERBOARD
    ════════════════════════════════════════════ */
@@ -907,20 +1455,13 @@ body::after {
 .lb-card-image {
   position: absolute;
   inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.55rem 0.15rem 1rem;
-  background:
-    radial-gradient(circle at 50% 48%, rgba(255, 255, 255, 0.08), transparent 46%),
-    linear-gradient(145deg, #161616, #070707);
 }
 
 .lb-card-image img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  object-position: center;
+  transform: scale(0.94);
 }
 
 .lb-card-placeholder {
@@ -1103,6 +1644,30 @@ body::after {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .balloon-card {
+    grid-template-columns: 1fr;
+  }
+
+  .balloon-stage {
+    min-height: auto;
+    padding: 0.7rem;
+  }
+
+  .balloon-figure-panel,
+  .balloon-info,
+  .balloon-figure-panel img,
+  .balloon-placeholder {
+    min-height: 420px;
+  }
+
+  .balloon-info {
+    padding: 1.2rem;
+  }
+
+  .balloon-info h2 {
+    font-size: 1.45rem;
+  }
+
   .app-header h1 {
     font-size: 2.2rem;
   }
@@ -1114,6 +1679,11 @@ body::after {
   .controls {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .header-topline,
+  .header-status-row {
+    gap: 0.45rem;
   }
 
   .controls-right {
@@ -1164,5 +1734,21 @@ body::after {
   .tier-btn {
     font-size: 0.55rem;
     padding: 0.3rem 0.4rem;
+  }
+
+  .presenter-hint {
+    font-size: 0.58rem;
+    letter-spacing: 0.05em;
+  }
+
+  .balloon-figure-panel,
+  .balloon-info,
+  .balloon-figure-panel img,
+  .balloon-placeholder {
+    min-height: 340px;
+  }
+
+  .balloon-rank {
+    font-size: 2.7rem;
   }
 }

@@ -9,19 +9,11 @@ const __dirname = dirname(__filename)
 
 const app = express()
 const PORT = process.env.PORT || 3001
+const HOST = process.env.HOST || '127.0.0.1'
 const DATA_DIR = join(__dirname, 'data')
 const RANKINGS_FILE = join(DATA_DIR, 'rankings.json')
 const SUBMISSIONS_FILE = join(DATA_DIR, 'submissions.json')
-const BRAND_FILES = {
-  'fans-toys': {
-    rankings: RANKINGS_FILE,
-    submissions: SUBMISSIONS_FILE,
-  },
-  'x-transbots': {
-    rankings: join(DATA_DIR, 'rankings-x-transbots.json'),
-    submissions: join(DATA_DIR, 'submissions-x-transbots.json'),
-  },
-}
+const DEFAULT_BRAND = 'eighties-birthday'
 
 app.use(cors())
 app.use(express.json())
@@ -45,33 +37,45 @@ function writeJSON(file, data) {
   writeFileSync(file, JSON.stringify(data, null, 2))
 }
 
-function getBrandFiles(req, res) {
-  const brand = req.query.brand || 'fans-toys'
-  const files = BRAND_FILES[brand]
+function normalizeBrand(brand) {
+  return typeof brand === 'string' && brand.trim()
+    ? brand.trim().toLowerCase()
+    : DEFAULT_BRAND
+}
 
-  if (!files) {
-    res.status(400).json({ error: 'Unknown brand' })
-    return null
+function getBrandStore(file) {
+  const data = readJSON(file, null)
+  if (Array.isArray(data)) {
+    return { [DEFAULT_BRAND]: data }
   }
+  if (data && typeof data === 'object') {
+    return data
+  }
+  return {}
+}
 
-  return { brand, ...files }
+function readBrandCollection(file, brand) {
+  const store = getBrandStore(file)
+  return Array.isArray(store[brand]) ? store[brand] : []
+}
+
+function writeBrandCollection(file, brand, collection) {
+  const store = getBrandStore(file)
+  store[brand] = collection
+  writeJSON(file, store)
 }
 
 // ─── Rankings (live working order) ───
 
 app.get('/api/rankings', (req, res) => {
-  const files = getBrandFiles(req, res)
-  if (!files) return
-
-  res.json(readJSON(files.rankings))
+  const brand = normalizeBrand(req.query.brand)
+  res.json(readBrandCollection(RANKINGS_FILE, brand))
 })
 
 app.put('/api/rankings', (req, res) => {
-  const files = getBrandFiles(req, res)
-  if (!files) return
-
   try {
-    writeJSON(files.rankings, req.body)
+    const brand = normalizeBrand(req.query.brand)
+    writeBrandCollection(RANKINGS_FILE, brand, req.body)
     res.json({ ok: true })
   } catch (e) {
     console.error('Error saving rankings:', e)
@@ -82,29 +86,24 @@ app.put('/api/rankings', (req, res) => {
 // ─── Submissions (snapshots) ───
 
 app.get('/api/submissions', (req, res) => {
-  const files = getBrandFiles(req, res)
-  if (!files) return
-
-  const subs = readJSON(files.submissions)
+  const brand = normalizeBrand(req.query.brand)
+  const subs = readBrandCollection(SUBMISSIONS_FILE, brand)
   res.json(subs.sort((a, b) => b.id - a.id))
 })
 
 app.post('/api/submissions', (req, res) => {
-  const files = getBrandFiles(req, res)
-  if (!files) return
-
   try {
-    const subs = readJSON(files.submissions)
+    const brand = normalizeBrand(req.body.brand)
+    const subs = readBrandCollection(SUBMISSIONS_FILE, brand)
     const { tier, rankings } = req.body
     const newSub = {
       id: subs.length > 0 ? Math.max(...subs.map(s => s.id)) + 1 : 1,
-      brand: files.brand,
       date: new Date().toISOString(),
       tier: tier || 25,
       rankings: rankings || [],
     }
     subs.push(newSub)
-    writeJSON(files.submissions, subs)
+    writeBrandCollection(SUBMISSIONS_FILE, brand, subs)
     res.json(newSub)
   } catch (e) {
     console.error('Error saving submission:', e)
@@ -113,10 +112,8 @@ app.post('/api/submissions', (req, res) => {
 })
 
 app.get('/api/leaderboard', (req, res) => {
-  const files = getBrandFiles(req, res)
-  if (!files) return
-
-  const subs = readJSON(files.submissions)
+  const brand = normalizeBrand(req.query.brand)
+  const subs = readBrandCollection(SUBMISSIONS_FILE, brand)
   if (subs.length === 0) {
     return res.json({ current: null, movements: {}, submissionCount: 0, previous: null })
   }
@@ -150,10 +147,8 @@ app.get('/api/leaderboard', (req, res) => {
 })
 
 app.get('/api/submissions/:id', (req, res) => {
-  const files = getBrandFiles(req, res)
-  if (!files) return
-
-  const subs = readJSON(files.submissions)
+  const brand = normalizeBrand(req.query.brand)
+  const subs = readBrandCollection(SUBMISSIONS_FILE, brand)
   const sub = subs.find(s => s.id === parseInt(req.params.id))
   if (!sub) return res.status(404).json({ error: 'Not found' })
 
@@ -180,6 +175,6 @@ app.get('*', (req, res) => {
   res.sendFile(join(__dirname, 'dist', 'index.html'))
 })
 
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`)
+app.listen(PORT, HOST, () => {
+  console.log(`Server running on http://${HOST}:${PORT}`)
 })

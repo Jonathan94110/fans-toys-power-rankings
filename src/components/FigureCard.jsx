@@ -1,9 +1,20 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useSortable } from '@dnd-kit/sortable'
 import { CSS } from '@dnd-kit/utilities'
 
-export default function FigureCard({ figure, rank, prevRank, greyed, shuffling, highlighted }) {
+function getFallbackBadge(figure) {
+  if (figure.brand) return figure.brand
+  if (figure.id?.startsWith('MP-')) return 'TAKARA TOMY'
+  if (figure.id?.startsWith('G1-')) return 'TRANSFORMERS G1'
+  if (figure.id?.startsWith('SS86-')) return 'STUDIO SERIES 86'
+  if (figure.id?.startsWith('KFC-')) return 'KFC'
+  if (/^(FT|FM|RP|PF)-/.test(figure.id || '')) return 'FANS TOYS'
+  return 'X-TRANSBOTS'
+}
+
+export default function FigureCard({ figure, rank, prevRank, greyed, shuffling, highlighted, searchMatched }) {
   const [showTooltip, setShowTooltip] = useState(false)
+  const [imageFailed, setImageFailed] = useState(false)
   const {
     attributes,
     listeners,
@@ -23,12 +34,17 @@ export default function FigureCard({ figure, rank, prevRank, greyed, shuffling, 
   }
 
   const diff = prevRank != null ? prevRank - rank : 0
+  const hasRealImage = Boolean(figure.img) && !imageFailed
+
+  useEffect(() => {
+    setImageFailed(false)
+  }, [figure.id, figure.img])
 
   return (
     <div
       ref={setNodeRef}
       style={style}
-      className={`grid-card ${isDragging ? 'dragging' : ''} ${greyed ? 'greyed' : ''} ${shuffling ? 'shuffling' : ''} ${highlighted ? 'highlighted' : ''}`}
+      className={`grid-card ${isDragging ? 'dragging' : ''} ${greyed ? 'greyed' : ''} ${shuffling ? 'shuffling' : ''} ${highlighted ? 'highlighted' : ''} ${searchMatched ? 'search-matched' : ''}`}
       data-figure-id={figure.id}
       {...attributes}
       {...listeners}
@@ -36,11 +52,21 @@ export default function FigureCard({ figure, rank, prevRank, greyed, shuffling, 
       onPointerLeave={() => setShowTooltip(false)}
     >
       <div className="card-image">
-        {figure.img ? (
-          <img src={figure.img} alt={figure.name} draggable={false} />
+        {hasRealImage ? (
+          <img
+            src={figure.img}
+            alt={figure.name}
+            className="figure-image"
+            draggable={false}
+            onError={() => setImageFailed(true)}
+            style={figure.imgPosition ? { objectPosition: figure.imgPosition } : undefined}
+          />
         ) : (
-          <div className="card-placeholder">
-            <span>{figure.id}</span>
+          <div className="card-fallback" aria-label={`${figure.name} placeholder`}>
+            <div className="card-fallback-badge">{getFallbackBadge(figure)}</div>
+            <div className="card-fallback-id">{figure.id}</div>
+            <div className="card-fallback-name">{figure.name}</div>
+            <div className="card-fallback-meta">{figure.year || 'Image coming soon'}</div>
           </div>
         )}
       </div>

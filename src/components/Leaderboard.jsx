@@ -1,22 +1,55 @@
 import React, { useState, useEffect } from 'react'
 
-function apiPath(path, brandId) {
-  return `${path}?brand=${encodeURIComponent(brandId)}`
+function getFallbackBadge(figure) {
+  if (figure.brand) return figure.brand
+  if (figure.id?.startsWith('KFC-')) return 'KFC'
+  if (/^(FT|FM|RP|PF)-/.test(figure.id || '')) return 'FANS TOYS'
+  return 'X-TRANSBOTS'
 }
 
-export default function Leaderboard({ allFigures, brandId }) {
+function LeaderboardImage({ fig }) {
+  const [imageFailed, setImageFailed] = useState(false)
+  const hasRealImage = Boolean(fig.img) && !imageFailed
+
+  useEffect(() => {
+    setImageFailed(false)
+  }, [fig.id, fig.img])
+
+  if (hasRealImage) {
+    return (
+      <img
+        src={fig.img}
+        alt={fig.name}
+        className="figure-image"
+        onError={() => setImageFailed(true)}
+        style={fig.imgPosition ? { objectPosition: fig.imgPosition } : undefined}
+      />
+    )
+  }
+
+  return (
+    <div className="lb-card-fallback" aria-label={`${fig.name} placeholder`}>
+      <div className="lb-card-fallback-badge">{getFallbackBadge(fig)}</div>
+      <div className="lb-card-fallback-id">{fig.id}</div>
+      <div className="lb-card-fallback-name">{fig.name}</div>
+      <div className="lb-card-fallback-meta">{fig.year || 'Image coming soon'}</div>
+    </div>
+  )
+}
+
+export default function Leaderboard({ brand, allFigures }) {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [viewingId, setViewingId] = useState(null)
 
   useEffect(() => {
     loadLeaderboard()
-  }, [brandId])
+  }, [brand])
 
   async function loadLeaderboard() {
     setLoading(true)
     try {
-      const res = await fetch(apiPath('/api/leaderboard', brandId))
+      const res = await fetch(`/api/leaderboard?brand=${encodeURIComponent(brand)}`)
       const json = await res.json()
       setData(json)
       setViewingId(null)
@@ -29,7 +62,7 @@ export default function Leaderboard({ allFigures, brandId }) {
   async function loadSubmission(id) {
     setLoading(true)
     try {
-      const res = await fetch(apiPath(`/api/submissions/${id}`, brandId))
+      const res = await fetch(`/api/submissions/${id}?brand=${encodeURIComponent(brand)}`)
       const json = await res.json()
       setData(prev => ({
         ...prev,
@@ -57,7 +90,7 @@ export default function Leaderboard({ allFigures, brandId }) {
           </svg>
         </div>
         <h3>No Rankings Submitted Yet</h3>
-        <p>Arrange your figures and hit Submit to create your first leaderboard entry.</p>
+        <p>Arrange your figures and hit Submit to create the first {brand === 'x-transbots' ? 'X-Transbots' : 'Fans Toys'} leaderboard entry.</p>
       </div>
     )
   }
@@ -101,11 +134,7 @@ export default function Leaderboard({ allFigures, brandId }) {
           return (
             <div key={figId} className="lb-card">
               <div className="lb-card-image">
-                {fig.img ? (
-                  <img src={fig.img} alt={fig.name} />
-                ) : (
-                  <div className="lb-card-placeholder">{fig.id}</div>
-                )}
+                <LeaderboardImage fig={fig} />
               </div>
               <div className="lb-card-overlay" />
               <div className="lb-card-rank">{index + 1}</div>

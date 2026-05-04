@@ -16,7 +16,7 @@ import {
 import FigureCard from './FigureCard'
 
 const RankingList = forwardRef(function RankingList(
-  { figures, prevOrder, tier, shuffling, highlightId, onReorder },
+  { figures, prevOrder, tier, shuffling, highlightId, searchMatchIds, onReorder },
   ref
 ) {
   const sensors = useSensors(
@@ -53,6 +53,7 @@ const RankingList = forwardRef(function RankingList(
               : null
             const isInTier = index < tier
             const isHighlighted = highlightId === figure.id
+            const isSearchMatch = searchMatchIds?.has(figure.id)
             return (
               <FigureCard
                 key={figure.id}
@@ -62,6 +63,7 @@ const RankingList = forwardRef(function RankingList(
                 greyed={!isInTier}
                 shuffling={shuffling}
                 highlighted={isHighlighted}
+                searchMatched={isSearchMatch}
               />
             )
           })}

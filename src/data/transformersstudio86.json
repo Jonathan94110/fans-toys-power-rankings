@@ -1,0 +1,410 @@
+[
+  {
+    "id": "SS86-MATRIX",
+    "name": "The Matrix of Leadership",
+    "year": 2026,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/the-matrix-of-leadership-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_25389_0_1771265665.webp"
+  },
+  {
+    "id": "SS86-SOUNDWAVE",
+    "name": "Soundwave Leader Class",
+    "year": 2026,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/soundwave-leader-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_25086_0_1758131813.webp"
+  },
+  {
+    "id": "SS86-SKYWARP",
+    "name": "Skywarp Voyager Class",
+    "year": 2026,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/skywarp-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_25393_0_1771352577.webp"
+  },
+  {
+    "id": "SS86-SHOCKWAVE",
+    "name": "Shockwave Voyager Class",
+    "year": 2026,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/shockwave-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_25394_0_1771352992.webp"
+  },
+  {
+    "id": "SS86-MEGATRON",
+    "name": "Megatron Leader Class",
+    "year": 2026,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/megatron-leader-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24963_0_1750790150.webp"
+  },
+  {
+    "id": "SS86-WINDCHARGER",
+    "name": "Windcharger Deluxe Class",
+    "year": 2026,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/windcharger-deluxe-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/reduced-image_25115_0_1760281374.png"
+  },
+  {
+    "id": "SS86-THUNDERCRACKER",
+    "name": "Thundercracker Voyager Class",
+    "year": 2026,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/transformers-movie-figures/thundercracker-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/reduced-image_25114_0_1760280953.png"
+  },
+  {
+    "id": "SS86-KRANIX",
+    "name": "Kranix Deluxe Class",
+    "year": 2026,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/kranix-deluxe-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_25390_0_1771351665.webp"
+  },
+  {
+    "id": "SS86-WHEELJACK",
+    "name": "Wheeljack Deluxe Class",
+    "year": 2026,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/wheeljack-deluxe-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_25392_0_1771352223.webp"
+  },
+  {
+    "id": "SS86-SUNSTREAKER",
+    "name": "Sunstreaker Deluxe Class",
+    "year": 2026,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/sunstreaker-deluxe-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_25391_0_1771351970.webp"
+  },
+  {
+    "id": "SS86-GRIMLOCK",
+    "name": "Dinobot Grimlock Leader Class",
+    "year": 2025,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/dinobot-grimlock-leader-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24962_0_1750789400.webp"
+  },
+  {
+    "id": "SS86-MIXMASTER",
+    "name": "Constructicon Mixmaster Voyager Class",
+    "year": 2025,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-constructicon-mixmaster-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24961_0_1750788588.webp"
+  },
+  {
+    "id": "SS86-LONG-HAUL-HOOK",
+    "name": "Constructicons Long Haul and Hook Commander Class",
+    "year": 2025,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-constructicons-long-haul-and-hook-commander-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24720_0_1738952586.webp"
+  },
+  {
+    "id": "SS86-SCRAPPER",
+    "name": "Constructicon Scrapper Voyager Class",
+    "year": 2025,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-constructicon-scrapper-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24573_0_1730137715.webp"
+  },
+  {
+    "id": "SS86-BONECRUSHER",
+    "name": "Constructicon Bonecrusher Deluxe Class",
+    "year": 2025,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-constructicon-bonecrusher-deluxe-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24572_0_1730137276.webp"
+  },
+  {
+    "id": "SS86-31",
+    "name": "Optimus Prime Commander Class",
+    "year": 2024,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-31-optimus-prime-commander-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24355_0_1743539577.webp"
+  },
+  {
+    "id": "SS86-27-28",
+    "name": "Brawn and Autobot Ratchet 2-Pack Deluxe Class",
+    "year": 2024,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-27-brawn-and-86-28-autobot-ratchet-2-pack-deluxe-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24340_0_1720635648.webp"
+  },
+  {
+    "id": "SS86-26",
+    "name": "Dinobot Swoop Leader Class",
+    "year": 2024,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-26-dinobot-swoop-leader-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24120_0_1729811436.webp"
+  },
+  {
+    "id": "SS86-21",
+    "name": "Ultra Magnus Commander Class",
+    "year": 2023,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-21-ultra-magnus-commander-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_23687_0_1692906100.webp"
+  },
+  {
+    "id": "SS86-22",
+    "name": "Brawn Deluxe Class",
+    "year": 2023,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-22-brawn-deluxe-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_23327_0_1684864492.webp"
+  },
+  {
+    "id": "SS86-WHEELIE",
+    "name": "Wheelie Core Class",
+    "year": 2022,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/wheelie-core-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_21050_0_1660013670.webp"
+  },
+  {
+    "id": "SS86-RATCHET-CORE",
+    "name": "Ratchet Core Class",
+    "year": 2022,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/ratchet-core-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_21049_0_1660013161.webp"
+  },
+  {
+    "id": "SS86-16",
+    "name": "Arcee Deluxe Class",
+    "year": 2022,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-16-arcee-deluxe-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_20431_0_1653443823.webp"
+  },
+  {
+    "id": "SS86-14",
+    "name": "Junkheap Voyager Class",
+    "year": 2022,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-14-junkyard-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_19627_0_1646164617.webp"
+  },
+  {
+    "id": "SS86-08",
+    "name": "Gnaw Deluxe Class",
+    "year": 2021,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/transformers-movies/86-08-gnaw-deluxe-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_18291_0_1621618914.webp"
+  },
+  {
+    "id": "SS86-31-GALVATRON",
+    "name": "Galvatron Leader Class",
+    "year": 2024,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-31-galvatron-leader-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24569_0_1729631509.webp"
+  },
+  {
+    "id": "SS86-30",
+    "name": "Autobot Springer Leader Class",
+    "year": 2024,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-30-autobot-springer-leader-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24228_0_1715712676.webp"
+  },
+  {
+    "id": "SS86-29",
+    "name": "Bumblebee Deluxe Class",
+    "year": 2024,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-29-bumblebee-deluxe-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24226_0_1715713132.webp"
+  },
+  {
+    "id": "SS86-STEELJAW",
+    "name": "Steeljaw Core Class",
+    "year": 2024,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/steeljaw-core-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24224_0_1715711074.webp"
+  },
+  {
+    "id": "SS86-25",
+    "name": "Autobot Blaster and Eject Voyager Class",
+    "year": 2024,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-25-autobot-blaster-and-eject-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_24069_0_1709925371.webp"
+  },
+  {
+    "id": "SS86-24",
+    "name": "Junkion Scrapheap Voyager Class",
+    "year": 2024,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/japanese-transformers/86-24-junkion-scrapheap-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_23857_0_1698775249.webp"
+  },
+  {
+    "id": "SS86-23",
+    "name": "Ratchet Voyager Class",
+    "year": 2023,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/japanese-transformers/86-23-ratchet-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_23686_0_1730827972.webp"
+  },
+  {
+    "id": "SS86-FRENZY-RED",
+    "name": "Decepticon Frenzy (Red) Core Class",
+    "year": 2023,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/decepticon-frenzy-red-core-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_23682_0_1692898807.webp"
+  },
+  {
+    "id": "SS86-19",
+    "name": "Snarl Leader Class",
+    "year": 2023,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-19-snarl-leader-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_22511_0_1710444548.webp"
+  },
+  {
+    "id": "SS86-IRONHIDE-CORE",
+    "name": "Ironhide Core Class",
+    "year": 2023,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/ironhide-core-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_22510_0_1677003312.webp"
+  },
+  {
+    "id": "SS86-RUMBLE-BLUE",
+    "name": "Decepticon Rumble (Blue) Core Class",
+    "year": 2022,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/decepticon-rumble-blue-core-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_21545_0_1666037826.webp"
+  },
+  {
+    "id": "SS86-17",
+    "name": "Ironhide Voyager Class",
+    "year": 2022,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/japanese-transformers/86-17-ironhide-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_21113_0_1660676162.webp"
+  },
+  {
+    "id": "SS86-SPIKE",
+    "name": "Exo-Suit Spike Witwicky Core Class",
+    "year": 2022,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-exo-suit-core-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_20199_0_1651514941.webp"
+  },
+  {
+    "id": "SS86-15",
+    "name": "Sludge Leader Class",
+    "year": 2022,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-15-sludge-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_19628_0_1646165298.webp"
+  },
+  {
+    "id": "SS86-12",
+    "name": "Coronation Starscream Leader Class",
+    "year": 2022,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-12-coronation-starscream-leader-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_18603_0_1628875933.webp"
+  },
+  {
+    "id": "SS86-10",
+    "name": "Sweep Voyager Class",
+    "year": 2021,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-10-sweep-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_18602_0_1628875570.webp"
+  },
+  {
+    "id": "SS86-11",
+    "name": "Perceptor Deluxe Class",
+    "year": 2022,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/86-11-perceptor-deluxe-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_18601_0_1628875165.webp"
+  },
+  {
+    "id": "SS86-09",
+    "name": "Wreck-Gar Voyager Class",
+    "year": 2021,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/transformers-generations/86-09-wreck-gar-voyager-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_18292_0_1621619349.webp"
+  },
+  {
+    "id": "SS86-07",
+    "name": "Dinobot Slug and Daniel Witwicky Leader Class",
+    "year": 2021,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/transformers-generations/86-07-dinobot-slug-and-daniel-witwicky-leader-class-transformers-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_18290_0_1621618432.webp"
+  },
+  {
+    "id": "SS86-06",
+    "name": "Grimlock and Wheelie Leader Class",
+    "year": 2021,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/transformers-movies/leader-grimlock-and-wheelie-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_17695_0_1634421341.webp"
+  },
+  {
+    "id": "SS86-05",
+    "name": "Scourge Voyager Class",
+    "year": 2021,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/transformers-movies/voyager-scourge-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_17694_0_1602865862.webp"
+  },
+  {
+    "id": "SS86-02",
+    "name": "Kup Deluxe Class",
+    "year": 2021,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/transformers-movies/deluxe-kup-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_17693_0_1602865327.webp"
+  },
+  {
+    "id": "SS86-03",
+    "name": "Blurr Deluxe Class",
+    "year": 2021,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/transformers-movies/deluxe-blurr-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_17692_0_1602864962.webp"
+  },
+  {
+    "id": "SS86-04",
+    "name": "Hot Rod Voyager Class",
+    "year": 2021,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/transformers-movies/04-voyager-hot-rod-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_17691_0_1602809483.webp"
+  },
+  {
+    "id": "SS86-01",
+    "name": "Jazz Deluxe Class",
+    "year": 2021,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/transformers-movies/01-deluxe-jazz-studio-series-transformers-the-movie-86/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_17690_0_1602808667.webp"
+  },
+  {
+    "id": "SS86-BLITZWING",
+    "name": "Blitzwing Leader Class",
+    "year": 2026,
+    "brand": "Transformers Studio Series 86",
+    "productUrl": "https://tfsource.com/hasbro-transformers/blitzwing-leader-class-transformers-studio-series-transformers-the-movie/",
+    "img": "https://s3.amazonaws.com/tf.images/webp_images/image_25574_0_1777397737.webp"
+  }
+]

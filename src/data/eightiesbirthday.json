@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "80S-TOY-TRANSFORMERS",
+    "name": "Transformers",
+    "year": "1980s",
+    "brand": "Boy Toys",
+    "imgPage": "https://en.wikipedia.org/wiki/File:TransformersG1Logo.jpg",
+    "imgSource": "Wikipedia file",
+    "img": "https://en.wikipedia.org/wiki/Special:Redirect/file/TransformersG1Logo.jpg",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-TOY-GI-JOE",
+    "name": "G.I. Joe",
+    "year": "1980s",
+    "brand": "Boy Toys",
+    "imgPage": "https://en.wikipedia.org/wiki/File:GIJoe_OriginalLineup.jpg",
+    "imgSource": "Wikipedia file",
+    "img": "https://en.wikipedia.org/wiki/Special:Redirect/file/GIJoe%20OriginalLineup.jpg",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-TOY-HE-MAN",
+    "name": "He-Man",
+    "year": "1980s",
+    "brand": "Boy Toys",
+    "imgPage": "https://en.wikipedia.org/wiki/Masters_of_the_Universe",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/d/d2/Masters_of_the_Universe.png",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-TOY-MASK",
+    "name": "M.A.S.K.",
+    "year": "1980s",
+    "brand": "Boy Toys",
+    "imgPage": "https://mask.fandom.com/wiki/File:Thunderhawk.png",
+    "imgSource": "Local image from M.A.S.K. Wiki",
+    "img": "/eighties-images/80s-toy-mask-thunderhawk.webp",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-TOY-THUNDERCATS",
+    "name": "ThunderCats",
+    "year": "1980s",
+    "brand": "Boy Toys",
+    "imgPage": "https://thundercats.fandom.com/wiki/ThunderCats_(original_series)",
+    "imgSource": "Local image from ThunderCats Wiki",
+    "img": "/eighties-images/80s-toy-thundercats-team.webp",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-TOY-VOLTRON",
+    "name": "Voltron",
+    "year": "1980s",
+    "brand": "Boy Toys",
+    "imgPage": "https://en.wikipedia.org/wiki/Voltron",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/6/6b/Voltron_logo.png",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-TOY-STAR-WARS",
+    "name": "Star Wars Toys",
+    "year": "1980s",
+    "brand": "Boy Toys",
+    "imgPage": "https://en.wikipedia.org/wiki/Kenner_Star_Wars_action_figures",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/5e/Star_Wars_Early_Bird.jpg",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-TOY-HOT-WHEELS",
+    "name": "Hot Wheels",
+    "year": "1980s",
+    "brand": "Boy Toys",
+    "imgPage": "https://en.wikipedia.org/wiki/File:HOT_WHEELS_MAINLINE_2013_-_CHEVY_CAMARO.jpg",
+    "imgSource": "Wikipedia file",
+    "img": "https://en.wikipedia.org/wiki/Special:Redirect/file/HOT%20WHEELS%20MAINLINE%202013%20-%20CHEVY%20CAMARO.jpg",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-GAME-MARIO",
+    "name": "Super Mario Bros.",
+    "year": 1985,
+    "brand": "Video Games",
+    "imgPage": "https://en.wikipedia.org/wiki/Super_Mario_Bros.",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-GAME-ZELDA",
+    "name": "The Legend of Zelda",
+    "year": 1986,
+    "brand": "Video Games",
+    "imgPage": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-GAME-CONTRA",
+    "name": "Contra",
+    "year": 1987,
+    "brand": "Video Games",
+    "imgPage": "https://en.wikipedia.org/wiki/Contra_(video_game)",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/6/65/Contra_cover.jpg",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-GAME-PUNCH-OUT",
+    "name": "Mike Tyson's Punch-Out!!",
+    "year": 1987,
+    "brand": "Video Games",
+    "imgPage": "https://en.wikipedia.org/wiki/Punch-Out!!_(1987_video_game)",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/c/c8/Mike_Tyson%27s_Punch-Out%21%21_NES_Box.jpg",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-GAME-MEGA-MAN",
+    "name": "Mega Man",
+    "year": 1987,
+    "brand": "Video Games",
+    "imgPage": "https://en.wikipedia.org/wiki/Mega_Man_(1987_video_game)",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/9/9b/Rockman_1987.jpg",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-GAME-PAC-MAN",
+    "name": "Pac-Man",
+    "year": 1980,
+    "brand": "Video Games",
+    "imgPage": "https://en.wikipedia.org/wiki/Pac-Man",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/1/16/Pac_flyer.png",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-GAME-DONKEY-KONG",
+    "name": "Donkey Kong",
+    "year": 1981,
+    "brand": "Video Games",
+    "imgPage": "https://en.wikipedia.org/wiki/Donkey_Kong_(1981_video_game)",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/1/14/Donkey_Kong_flier.jpg",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-GAME-TETRIS",
+    "name": "Tetris",
+    "year": 1984,
+    "brand": "Video Games",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Tetris_logo_2019.svg/960px-Tetris_logo_2019.svg.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Tetris",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CANDY-SNICKERS",
+    "name": "Snickers",
+    "year": "1980s",
+    "brand": "Candy Bars",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Snickers-broken.png/960px-Snickers-broken.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Snickers",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CANDY-TWIX",
+    "name": "Twix",
+    "year": "1980s",
+    "brand": "Candy Bars",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/43/Twix_brand_logo.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Twix",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CANDY-KIT-KAT",
+    "name": "Kit Kat",
+    "year": "1980s",
+    "brand": "Candy Bars",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo_of_the_KitKat.svg/960px-Logo_of_the_KitKat.svg.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/KitKat",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CANDY-BUTTERFINGER",
+    "name": "Butterfinger",
+    "year": "1980s",
+    "brand": "Candy Bars",
+    "imgPage": "https://en.wikipedia.org/wiki/File:Butterfinger-Snackerz-Candies.jpg",
+    "imgSource": "Wikipedia file",
+    "img": "https://en.wikipedia.org/wiki/Special:Redirect/file/Butterfinger-Snackerz-Candies.jpg",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-CANDY-REESES-PIECES",
+    "name": "Reese's Pieces",
+    "year": "1980s",
+    "brand": "Candy Bars",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Reese%27s_Pieces%2C_Canada%2C_2026-02-27_03.jpg/960px-Reese%27s_Pieces%2C_Canada%2C_2026-02-27_03.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Reese%27s_Pieces",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CANDY-WHATCHAMACALLIT",
+    "name": "Whatchamacallit",
+    "year": "1980s",
+    "brand": "Candy Bars",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Whatchamacallit_brand_logo.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Whatchamacallit_(candy)",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CANDY-BABY-RUTH",
+    "name": "Baby Ruth",
+    "year": "1980s",
+    "brand": "Candy Bars",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Baby-Ruth-Split.jpg/960px-Baby-Ruth-Split.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Baby_Ruth",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CANDY-SKOR",
+    "name": "Skor",
+    "year": "1980s",
+    "brand": "Candy Bars",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Candy-Skor-Broken.jpg/960px-Candy-Skor-Broken.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Skor",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SNACK-ECTO-COOLER",
+    "name": "Hi-C Ecto Cooler",
+    "year": 1989,
+    "brand": "Snacks / Drinks",
+    "img": "/eighties-images/80s-snack-ecto-cooler.webp",
+    "imgPosition": "center center",
+    "imgPage": "https://ghostbusters.fandom.com/wiki/Ecto_Cooler",
+    "imgSource": "Local image from Ghostbusters Wiki"
+  },
+  {
+    "id": "80S-SNACK-DORITOS",
+    "name": "Doritos",
+    "year": "1980s",
+    "brand": "Snacks / Drinks",
+    "img": "/eighties-images/80s-snack-doritos.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Doritos",
+    "imgSource": "Local image from Wikipedia"
+  },
+  {
+    "id": "80S-CEREAL-CAPN-CRUNCH",
+    "name": "Cap'n Crunch",
+    "year": "1980s",
+    "brand": "Cereals",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Capcrunch_textlogo.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Cap%27n_Crunch",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CEREAL-COOKIE-CRISP",
+    "name": "Cookie Crisp",
+    "year": "1980s",
+    "brand": "Cereals",
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/58/Cookie_Crisp_USA_logo.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Cookie_Crisp",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CEREAL-COCOA-PEBBLES",
+    "name": "Cocoa Pebbles",
+    "year": "1980s",
+    "brand": "Cereals",
+    "img": "https://upload.wikimedia.org/wikipedia/en/6/62/Pebbles_cereal_brand_logo.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Pebbles_(cereal)",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CEREAL-FRUITY-PEBBLES",
+    "name": "Fruity Pebbles",
+    "year": "1980s",
+    "brand": "Cereals",
+    "img": "https://upload.wikimedia.org/wikipedia/en/6/62/Pebbles_cereal_brand_logo.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Pebbles_(cereal)",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CEREAL-APPLE-JACKS",
+    "name": "Apple Jacks",
+    "year": "1980s",
+    "brand": "Cereals",
+    "img": "https://upload.wikimedia.org/wikipedia/en/4/41/Kellogg%27s_Apple_Jacks.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Apple_Jacks",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CEREAL-GOLDEN-GRAHAMS",
+    "name": "Golden Grahams",
+    "year": "1980s",
+    "brand": "Cereals",
+    "img": "https://upload.wikimedia.org/wikipedia/en/9/9d/Golden_Grahams_logo.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Golden_Grahams",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CEREAL-FROSTED-FLAKES",
+    "name": "Frosted Flakes",
+    "year": "1980s",
+    "brand": "Cereals",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Frostedflakes_brand_logo.png/960px-Frostedflakes_brand_logo.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Frosted_Flakes",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-CEREAL-CINNAMON-TOAST-CRUNCH",
+    "name": "Cinnamon Toast Crunch",
+    "year": 1984,
+    "brand": "Cereals",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Cinnamon_toastcrunch_logo.png/960px-Cinnamon_toastcrunch_logo.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Cinnamon_Toast_Crunch",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-STORE-TOYS-R-US",
+    "name": "Toys \"R\" Us",
+    "year": "1980s",
+    "brand": "Stores",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Toys_R_Us_department_in_Macy%27s_Center_City_Philadelphia.jpg/960px-Toys_R_Us_department_in_Macy%27s_Center_City_Philadelphia.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Toys_%22R%22_Us",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-STORE-KAY-BEE",
+    "name": "Kay-Bee Toys",
+    "year": "1980s",
+    "brand": "Stores",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Kay-Bee_mascot.jpg/960px-Kay-Bee_mascot.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/KB_Toys",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-STORE-RADIOSHACK",
+    "name": "RadioShack",
+    "year": "1980s",
+    "brand": "Stores",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/ab/RadioShack_Logo_2013.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/RadioShack",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-STORE-BLOCKBUSTER",
+    "name": "Blockbuster Video",
+    "year": "1980s",
+    "brand": "Stores",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Blockbuster_logo.svg/960px-Blockbuster_logo.svg.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Blockbuster_(retailer)",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-STORE-SEARS",
+    "name": "Sears",
+    "year": "1980s",
+    "brand": "Stores",
+    "img": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lloyd%20Center%20Sears%20store%20from%20SE%20in%202017.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://commons.wikimedia.org/wiki/File:Lloyd_Center_Sears_store_from_SE_in_2017.jpg",
+    "imgSource": "Wikipedia file"
+  },
+  {
+    "id": "80S-STORE-JCPENNEY",
+    "name": "JCPenney",
+    "year": "1980s",
+    "brand": "Stores",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/JC_Penney_store%2C_Aventura_Mall_%28Aventura%2C_Florida%2C_2006%29.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/JCPenney",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-STORE-WOOLWORTH",
+    "name": "Woolworth",
+    "year": "1980s",
+    "brand": "Stores",
+    "img": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Woolworths%20Camberwell%20-%202004%20-%20Exterior.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://commons.wikimedia.org/wiki/File:Woolworths_Camberwell_-_2004_-_Exterior.jpg",
+    "imgSource": "Wikipedia file"
+  },
+  {
+    "id": "80S-STORE-TOWER-RECORDS",
+    "name": "Tower Records",
+    "year": "1980s",
+    "brand": "Stores",
+    "imgPage": "https://en.wikipedia.org/wiki/File:Tower_Records_Sunset.jpg",
+    "imgSource": "Wikipedia file",
+    "img": "https://en.wikipedia.org/wiki/Special:Redirect/file/Tower%20Records%20Sunset.jpg",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-TECH-VCR",
+    "name": "VCR",
+    "year": "1980s",
+    "brand": "Tech and Media",
+    "img": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Panasonic%20VCR%20%28Front%29.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://commons.wikimedia.org/wiki/File:Panasonic_VCR_(Front).jpg",
+    "imgSource": "Wikipedia file"
+  },
+  {
+    "id": "80S-TECH-APPLE-COMPUTER",
+    "name": "Apple Computer",
+    "year": "1980s",
+    "brand": "Tech and Media",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/960px-Apple_logo_black.svg.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TECH-WALKMAN",
+    "name": "Sony Walkman",
+    "year": "1980s",
+    "brand": "Tech and Media",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Walkman_logo_%282000%29.svg/960px-Walkman_logo_%282000%29.svg.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Walkman",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TECH-BOOMBOX",
+    "name": "Boombox",
+    "year": "1980s",
+    "brand": "Tech and Media",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Sharp_GF-9494_%2822W%29_Ghetto_Blaster_%28edited%29.jpg/960px-Sharp_GF-9494_%2822W%29_Ghetto_Blaster_%28edited%29.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Boombox",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TECH-NES",
+    "name": "Nintendo Entertainment System",
+    "year": 1985,
+    "brand": "Tech and Media",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/NES-Console-Set.png/960px-NES-Console-Set.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TECH-VHS",
+    "name": "VHS Tapes",
+    "year": "1980s",
+    "brand": "Tech and Media",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/VHS_logo.svg/960px-VHS_logo.svg.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/VHS",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TECH-ARCADE-CABINETS",
+    "name": "Arcade Cabinets",
+    "year": "1980s",
+    "brand": "Tech and Media",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Fliperama.jpg/960px-Fliperama.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Arcade_cabinet",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TECH-POLAROID",
+    "name": "Polaroid Camera",
+    "year": "1980s",
+    "brand": "Tech and Media",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/0464_Fuji_Instax_210_Polaroid_600_Spirit_Fuji_Cheki_%287159344382%29.jpg/960px-0464_Fuji_Instax_210_Polaroid_600_Spirit_Fuji_Cheki_%287159344382%29.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Instant_camera",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-WRESTLING-HOGAN",
+    "name": "Hulk Hogan",
+    "year": "1980s",
+    "brand": "WWF / WCW",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hulk_Hogan%2C_circa_1985.jpg/960px-Hulk_Hogan%2C_circa_1985.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Hulk_Hogan",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-WRESTLING-MACHO-MAN",
+    "name": "Macho Man Randy Savage",
+    "year": "1980s",
+    "brand": "WWF / WCW",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Randy_Savage_1988.jpeg/960px-Randy_Savage_1988.jpeg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Randy_Savage",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-WRESTLING-WARRIOR",
+    "name": "Ultimate Warrior",
+    "year": "1980s",
+    "brand": "WWF / WCW",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/The_Ultimate_Warrior_with_a_chain_1988.png/960px-The_Ultimate_Warrior_with_a_chain_1988.png",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Ultimate_Warrior",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-WRESTLING-ANDRE",
+    "name": "Andre the Giant",
+    "year": "1980s",
+    "brand": "WWF / WCW",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Andr%C3%A9_the_Giant_in_the_late_%2780s_%28close_crop%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Andr%C3%A9_the_Giant",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-WRESTLING-PIPER",
+    "name": "Roddy Piper",
+    "year": "1980s",
+    "brand": "WWF / WCW",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Roddy_Piper_1983.png",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Roddy_Piper",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-WRESTLING-JAKE",
+    "name": "Jake Roberts",
+    "year": "1980s",
+    "brand": "WWF / WCW",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Jake_%22The_Snake%22_Roberts_Photo_Op_GalaxyCon_Columbus_2024.jpg/960px-Jake_%22The_Snake%22_Roberts_Photo_Op_GalaxyCon_Columbus_2024.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Jake_Roberts",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-WRESTLING-STING",
+    "name": "Sting",
+    "year": "1980s",
+    "brand": "WWF / WCW",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Sting_Photo_Op_GalaxyCon_Oklahoma_City_2025.jpg/960px-Sting_Photo_Op_GalaxyCon_Oklahoma_City_2025.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Sting_(wrestler)",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-WRESTLING-DIBIASE",
+    "name": "Ted DiBiase",
+    "year": "1980s",
+    "brand": "WWF / WCW",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ted_DiBiase_by_Gage_Skidmore.jpg/960px-Ted_DiBiase_by_Gage_Skidmore.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Ted_DiBiase",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-MIKE-TYSON",
+    "name": "Mike Tyson",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Mike_Tyson",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-BO-JACKSON",
+    "name": "Bo Jackson",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Bo_Jackson%2C_2011_NCAA_Honors_Celebration%2C_San_Antonio%2C_TX.jpg/960px-Bo_Jackson%2C_2011_NCAA_Honors_Celebration%2C_San_Antonio%2C_TX.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Bo_Jackson",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-MAGIC",
+    "name": "Magic Johnson",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg/960px-Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Magic_Johnson",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-SHOWTIME-LAKERS",
+    "name": "Showtime Lakers",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Magic_Johnson_Steve_Lipofsky.jpg/960px-Magic_Johnson_Steve_Lipofsky.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Showtime_Lakers",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-KAREEM",
+    "name": "Kareem Abdul-Jabbar",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Kareem_Abdul-Jabbar_May_2014.jpg/960px-Kareem_Abdul-Jabbar_May_2014.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Kareem_Abdul-Jabbar",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-LARRY-BIRD",
+    "name": "Larry Bird",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Larrybird.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Larry_Bird",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-WALTER-PAYTON",
+    "name": "Walter Payton",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/6/62/1986_Jeno%27s_Pizza_-_12_-_Walter_Payton_%28Walter_Payton_crop%29_%28cropped%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Walter_Payton",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-MICHAEL-JORDAN",
+    "name": "Michael Jordan",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Michael_Jordan_in_2014.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Michael_Jordan",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-SUGAR-RAY",
+    "name": "Sugar Ray Leonard",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sugar_Ray_Leonard.jpg/960px-Sugar_Ray_Leonard.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Sugar_Ray_Leonard",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-LAWRENCE-TAYLOR",
+    "name": "Lawrence Taylor",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/8/81/Lawrence_Taylor_in_2025_%28cropped%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Lawrence_Taylor",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-BARRY-BONDS",
+    "name": "Barry Bonds",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/BarryBonds1993.jpg/960px-BarryBonds1993.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Barry_Bonds",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-KEN-GRIFFEY-JR",
+    "name": "Ken Griffey Jr.",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ken_Griffey%2C_Jr._June_2009_%28cropped%29.jpg/960px-Ken_Griffey%2C_Jr._June_2009_%28cropped%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Ken_Griffey_Jr.",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-DEION-SANDERS",
+    "name": "Deion Sanders",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Deion_Sanders_%288216060%29_%28cropped%29.jpg/960px-Deion_Sanders_%288216060%29_%28cropped%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Deion_Sanders",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-JERRY-RICE",
+    "name": "Jerry Rice",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/0/01/Super_Bowl_44_Miami_Florida_NFL_Network_South_Beach_Set_Deon_Sanders_interviews_Jerry_Rice_%284331549867%29_%28cropped%29_-_Jerry_Rice.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Jerry_Rice",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SPORTS-JOE-MONTANA",
+    "name": "Joe Montana",
+    "year": "1980s",
+    "brand": "Sports Icons",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Joe_Montana_Super_Bowl_50_%28cropped%29.jpg/960px-Joe_Montana_Super_Bowl_50_%28cropped%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Joe_Montana",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-ICON-RAMBO",
+    "name": "Rambo",
+    "year": "1980s",
+    "brand": "Action / Horror",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/John_Rambo.jpg/960px-John_Rambo.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/John_Rambo",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-ICON-ROCKY",
+    "name": "Rocky Balboa",
+    "year": "1980s",
+    "brand": "Action / Horror",
+    "imgPage": "https://en.wikipedia.org/wiki/Rocky_Balboa",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/53/Rocky_balboa.jpeg",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-ICON-TERMINATOR",
+    "name": "Terminator",
+    "year": 1984,
+    "brand": "Action / Horror",
+    "imgPage": "https://en.wikipedia.org/wiki/Terminator_(character)",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/b/b9/Terminator-2-judgement-day.jpg",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-ICON-JASON",
+    "name": "Jason Voorhees",
+    "year": "1980s",
+    "brand": "Action / Horror",
+    "imgPage": "https://en.wikipedia.org/wiki/Jason_Voorhees",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/f/f7/Jason_Voorhees_%28Ken_Kirzinger%29.jpg",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-ICON-FREDDY",
+    "name": "Freddy Krueger",
+    "year": 1984,
+    "brand": "Action / Horror",
+    "imgPage": "https://en.wikipedia.org/wiki/Freddy_Krueger",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/e/eb/Freddy_Krueger_%28Robert_Englund%29.jpg",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-ICON-ROBOCOP",
+    "name": "RoboCop",
+    "year": 1987,
+    "brand": "Action / Horror",
+    "imgPage": "https://en.wikipedia.org/wiki/RoboCop_(character)",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/1/1a/RoboCop_%28Peter_Weller%29.png",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-ICON-PREDATOR",
+    "name": "Predator",
+    "year": 1987,
+    "brand": "Action / Horror",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Predator_%282020225730%29.jpg/960px-Predator_%282020225730%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Predator_(fictional_species)",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-ICON-INDIANA-JONES",
+    "name": "Indiana Jones",
+    "year": "1980s",
+    "brand": "Action / Horror",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Indianajones4.jpg/960px-Indianajones4.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Indiana_Jones_(character)",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-ICON-BIG-TROUBLE",
+    "name": "Big Trouble in Little China",
+    "year": 1986,
+    "brand": "Action / Horror",
+    "img": "https://upload.wikimedia.org/wikipedia/en/7/76/Big_Trouble_in_Little_China_Film_Poster.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Big_Trouble_in_Little_China",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-MOVIE-GHOSTBUSTERS",
+    "name": "Ghostbusters",
+    "year": 1984,
+    "brand": "Movies",
+    "img": "/eighties-images/80s-movie-ghostbusters.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Ghostbusters",
+    "imgSource": "Local image from Wikipedia"
+  },
+  {
+    "id": "80S-MOVIE-BACK-TO-THE-FUTURE",
+    "name": "Back to the Future",
+    "year": 1985,
+    "brand": "Movies",
+    "img": "/eighties-images/80s-movie-back-to-the-future.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Back_to_the_Future",
+    "imgSource": "Local image from Wikipedia"
+  },
+  {
+    "id": "80S-ANIME-AKIRA",
+    "name": "Akira",
+    "year": 1988,
+    "brand": "Anime",
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/5d/AKIRA_%281988_poster%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Akira_(1988_film)",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-ANIME-DRAGON-BALL",
+    "name": "Dragon Ball",
+    "year": 1986,
+    "brand": "Anime",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Dragon_Ball_anime_logo.png/960px-Dragon_Ball_anime_logo.png",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Dragon_Ball_(TV_series)",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-LEGEND-MJ",
+    "name": "Michael Jackson",
+    "year": "1980s",
+    "brand": "80s Legends",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/960px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Michael_Jackson",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-LEGEND-PRINCE",
+    "name": "Prince",
+    "year": "1980s",
+    "brand": "80s Legends",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Prince_promo_picture_%281988%3B_cropped_and_retouched%29.png/960px-Prince_promo_picture_%281988%3B_cropped_and_retouched%29.png",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Prince_(musician)",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-LEGEND-EDDIE-MURPHY",
+    "name": "Eddie Murphy",
+    "year": "1980s",
+    "brand": "80s Legends",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Eddie_Murphy_by_David_Shankbone.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Eddie_Murphy",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-LEGEND-MR-T",
+    "name": "Mr. T",
+    "year": "1980s",
+    "brand": "80s Legends",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/43/Mr_T_WWE_Hall_of_Fame_2014_%28cropped%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Mr._T",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-LEGEND-PEE-WEE",
+    "name": "Pee-wee Herman",
+    "year": "1980s",
+    "brand": "80s Legends",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Pee-Wee_Herman_%281988%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Pee-wee_Herman",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-LEGEND-RUN-DMC",
+    "name": "Run-DMC",
+    "year": "1980s",
+    "brand": "80s Legends",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Run_DMC_%28cropped%29.png/960px-Run_DMC_%28cropped%29.png",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Run-DMC",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-LEGEND-NWA",
+    "name": "N.W.A.",
+    "year": "1980s",
+    "brand": "80s Legends",
+    "img": "https://upload.wikimedia.org/wikipedia/en/c/c8/NWA%2C_all_band_members.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/N.W.A",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-LEGEND-MIKE-TYSON",
+    "name": "Mike Tyson",
+    "year": "1980s",
+    "brand": "80s Legends",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Mike_Tyson",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-LEGEND-HULK-HOGAN",
+    "name": "Hulk Hogan",
+    "year": "1980s",
+    "brand": "80s Legends",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hulk_Hogan%2C_circa_1985.jpg/960px-Hulk_Hogan%2C_circa_1985.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Hulk_Hogan",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-LEGEND-MICHAEL-JORDAN",
+    "name": "Michael Jordan",
+    "year": "1980s",
+    "brand": "80s Legends",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Michael_Jordan_in_2014.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Michael_Jordan",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-RNB-NEW-EDITION",
+    "name": "New Edition",
+    "year": "1980s",
+    "brand": "R&B Groups",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/New_Edition_on_Sister_Circle_Live.jpg/960px-New_Edition_on_Sister_Circle_Live.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/New_Edition",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-RNB-FORCE-MDS",
+    "name": "Force MDs",
+    "year": "1980s",
+    "brand": "R&B Groups",
+    "imgPage": "https://en.wikipedia.org/wiki/Force_MDs",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/f/f6/Force_MDs_%28group_photo%29.jpg",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-RNB-ZAPP",
+    "name": "Zapp",
+    "year": "1980s",
+    "brand": "R&B Groups",
+    "imgPage": "https://en.wikipedia.org/wiki/Zapp",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/8/84/Zapp_band_with_Roger_Troutman.jpg",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-RNB-KOOL-GANG",
+    "name": "Kool & The Gang",
+    "year": "1980s",
+    "brand": "R&B Groups",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Kool_%26_the_Gang_-_Leverkusener_Jazztage_2017-1963_%28cropped%29.jpg/960px-Kool_%26_the_Gang_-_Leverkusener_Jazztage_2017-1963_%28cropped%29.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Kool_%26_the_Gang",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TV-KNIGHT-RIDER",
+    "name": "Knight Rider",
+    "year": "1980s",
+    "brand": "TV Shows",
+    "imgPage": "https://en.wikipedia.org/wiki/File:A_black_Pontiac_Firebird_Trans_Am_built_to_mimic_KITT_from_the_TV_series_Knight_Rider.jpg",
+    "imgSource": "Wikipedia file",
+    "img": "https://en.wikipedia.org/wiki/Special:Redirect/file/A%20black%20Pontiac%20Firebird%20Trans%20Am%20built%20to%20mimic%20KITT%20from%20the%20TV%20series%20Knight%20Rider.jpg",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-TV-A-TEAM",
+    "name": "The A-Team",
+    "year": "1980s",
+    "brand": "TV Shows",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/A-Team-Logo.svg/960px-A-Team-Logo.svg.png",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/The_A-Team",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TV-GREATEST-AMERICAN-HERO",
+    "name": "The Greatest American Hero",
+    "year": "1980s",
+    "brand": "TV Shows",
+    "imgPage": "https://en.wikipedia.org/wiki/The_Greatest_American_Hero",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/0/02/The_Greatest_American_Hero_%28TV_series_logo%29.png",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-TV-MIAMI-VICE",
+    "name": "Miami Vice",
+    "year": "1980s",
+    "brand": "TV Shows",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Miami_Vice.svg/960px-Miami_Vice.svg.png",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Miami_Vice",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TV-AIRWOLF",
+    "name": "Airwolf",
+    "year": "1980s",
+    "brand": "TV Shows",
+    "imgPage": "https://en.wikipedia.org/wiki/Airwolf",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/1/13/AirwolfTitlecardOR.jpg",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-TV-MAGNUM-PI",
+    "name": "Magnum P.I.",
+    "year": "1980s",
+    "brand": "TV Shows",
+    "imgPage": "https://en.wikipedia.org/wiki/File:Magnum_P.I._Cast.jpg",
+    "imgSource": "Wikipedia file",
+    "img": "https://en.wikipedia.org/wiki/Special:Redirect/file/Magnum%20P.I.%20Cast.jpg",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-TV-MACGYVER",
+    "name": "MacGyver",
+    "year": "1980s",
+    "brand": "TV Shows",
+    "imgPage": "https://en.wikipedia.org/wiki/File:MacGyver.svg",
+    "imgSource": "Wikipedia file",
+    "img": "https://en.wikipedia.org/wiki/Special:Redirect/file/MacGyver.svg",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-TV-ALF",
+    "name": "ALF",
+    "year": "1980s",
+    "brand": "TV Shows",
+    "imgPage": "https://en.wikipedia.org/wiki/ALF_(TV_series)",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/3/30/Alfintro.jpg",
+    "imgPosition": "center top"
+  },
+  {
+    "id": "80S-FOOD-HAPPY-MEALS",
+    "name": "Happy Meals",
+    "year": "1980s",
+    "brand": "Fast Food",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Cajitafla.jpeg/960px-Cajitafla.jpeg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Happy_Meal",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-FOOD-WWF-ICE-CREAM",
+    "name": "WWF Ice Cream Bars",
+    "year": "1980s",
+    "brand": "Fast Food",
+    "imgPage": "https://en.wikipedia.org/wiki/Good_Humor",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/f/fa/Good_Humor_logo.png",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-FOOD-BIG-MAC",
+    "name": "Big Mac",
+    "year": "1980s",
+    "brand": "Fast Food",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Big_Mac.png/960px-Big_Mac.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Big_Mac",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-FOOD-WHOPPER",
+    "name": "Whopper",
+    "year": "1980s",
+    "brand": "Fast Food",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/WHOPPER_with_Cheese%2C_at_Burger_King_%282014.05.04%29.jpg/960px-WHOPPER_with_Cheese%2C_at_Burger_King_%282014.05.04%29.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Whopper",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-FOOD-PIZZA-HUT",
+    "name": "Pizza Hut Personal Pan Pizza",
+    "year": "1980s",
+    "brand": "Fast Food",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Pizza_Hut_2025.svg/960px-Pizza_Hut_2025.svg.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Pizza_Hut",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-FOOD-MCDONALDS-FRIES",
+    "name": "McDonald's Fries",
+    "year": "1980s",
+    "brand": "Fast Food",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/960px-McDonald%27s_Golden_Arches.svg.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/McDonald%27s",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-FOOD-WENDYS-SINGLE",
+    "name": "Wendy's Single",
+    "year": "1980s",
+    "brand": "Fast Food",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/960px-Wendy%27s_full_logo_2012.svg.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Wendy%27s",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-FOOD-IN-N-OUT",
+    "name": "In-N-Out Double-Double",
+    "year": "1980s",
+    "brand": "Fast Food",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/InNOut_2021_logo.svg/960px-InNOut_2021_logo.svg.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/In-N-Out_Burger",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-BMX-HARO",
+    "name": "Haro",
+    "year": "1980s",
+    "brand": "BMX / Shoes",
+    "imgPage": "https://commons.wikimedia.org/wiki/File:1986_Haro_Freestyle_Master.jpg",
+    "imgSource": "Wikipedia file",
+    "img": "https://commons.wikimedia.org/wiki/Special:Redirect/file/1986%20Haro%20Freestyle%20Master.jpg",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-BMX-GT-PERFORMER",
+    "name": "GT Performer",
+    "year": "1980s",
+    "brand": "BMX / Shoes",
+    "img": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Freestyle%20BMX%20bike%202019-04-05%20%281%29.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://commons.wikimedia.org/wiki/File:Freestyle_BMX_bike_2019-04-05_(1).jpg",
+    "imgSource": "Wikipedia file"
+  },
+  {
+    "id": "80S-BMX-MONGOOSE",
+    "name": "Mongoose",
+    "year": "1980s",
+    "brand": "BMX / Shoes",
+    "img": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kasi%20Modified%20BMX%20Bicycle%206.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://commons.wikimedia.org/wiki/File:Kasi_Modified_BMX_Bicycle_6.jpg",
+    "imgSource": "Wikipedia file"
+  },
+  {
+    "id": "80S-BMX-REDLINE",
+    "name": "Redline",
+    "year": "1980s",
+    "brand": "BMX / Shoes",
+    "imgPage": "https://commons.wikimedia.org/wiki/File:Dirt_jump_IMG_7609.jpg",
+    "imgSource": "Wikipedia file",
+    "img": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dirt%20jump%20IMG%207609.jpg",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-SHOES-AIR-JORDANS",
+    "name": "Air Jordans",
+    "year": "1980s",
+    "brand": "BMX / Shoes",
+    "imgPage": "https://en.wikipedia.org/wiki/Air_Jordan",
+    "imgSource": "Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Jumpman_logo.svg/960px-Jumpman_logo.svg.png",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-SHOES-ADIDAS-SHELL-TOES",
+    "name": "Adidas Shell Toes",
+    "year": "1980s",
+    "brand": "BMX / Shoes",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Adidas_Superstar_shoes_pair.jpg/960px-Adidas_Superstar_shoes_pair.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Adidas_Superstar",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SHOES-REEBOK-PUMPS",
+    "name": "Reebok Pumps",
+    "year": "1980s",
+    "brand": "BMX / Shoes",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Reebok_pump_logo.svg/960px-Reebok_pump_logo.svg.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Reebok_Pump",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SHOES-BRITISH-KNIGHTS",
+    "name": "British Knights",
+    "year": "1980s",
+    "brand": "BMX / Shoes",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/6/69/Britishknights_brand_logo.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/British_Knights",
+    "imgSource": "Wikipedia"
+  }
+]
