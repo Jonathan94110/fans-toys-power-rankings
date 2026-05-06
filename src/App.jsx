@@ -70,7 +70,7 @@ const BRANDS = {
     figures: takaraTomyMasterpieceFigures,
   },
 }
-const TIER_OPTIONS = [5, 8, 10, 15, 16, 20, 25, 30, 32, 35, 40, 45, 50, 60, 64, 70, 80, 90, 100, 110, 112, 113, 118, 120, 122, 124, 130, 150, 200, 250, 300, 400, 500, 650, 700]
+const TIER_OPTIONS = [5, 8, 10, 15, 16, 20, 25, 30, 32, 35, 40, 45, 50, 60, 64, 70, 80, 90, 100, 110, 112, 113, 118, 120, 122, 124, 130, 140, 150, 160, 161, 162, 163, 164, 165, 200, 250, 300, 400, 500, 650, 700]
 
 function normalizeSearchText(value) {
   return String(value ?? '')
@@ -271,10 +271,17 @@ export default function App() {
   const searchMatchIds = new Set(searchResults.map(f => f.id))
 
   function handleSearchSelect(id) {
+    const rank = figures.findIndex(f => f.id === id) + 1
+    if (rank > tier) {
+      const nextTier = TIER_OPTIONS.find(n => n >= rank) ?? Math.max(rank, tier)
+      setTier(nextTier)
+    }
     setHighlightId(id)
     setSearch('')
-    const el = document.querySelector(`[data-figure-id="${id}"]`)
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    setTimeout(() => {
+      const el = document.querySelector(`[data-figure-id="${id}"]`)
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }, 80)
     setTimeout(() => setHighlightId(null), 2000)
   }
 

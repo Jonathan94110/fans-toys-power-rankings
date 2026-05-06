@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09071b"/>
+      <stop offset="0.48" stop-color="#201034"/>
+      <stop offset="1" stop-color="#050912"/>
+    </linearGradient>
+    <radialGradient id="flare" cx="50%" cy="35%" r="55%">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity="0.34"/>
+      <stop offset="0.55" stop-color="#ffcc33" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="640" fill="url(#bg)"/>
+  <rect width="900" height="640" fill="url(#flare)"/>
+  <g opacity="0.45">
+    <path d="M0 520H900M0 452H900M0 384H900M0 316H900" stroke="#00f5ff" stroke-width="2"/>
+    <path d="M90 640L450 190L810 640M0 640L450 190L900 640" fill="none" stroke="#ffcc33" stroke-width="3"/>
+  </g>
+  <circle cx="450" cy="235" r="132" fill="#120b22" stroke="#00f5ff" stroke-width="8" filter="url(#glow)"/>
+  <path d="M326 260c58-100 190-99 248 0-29-30-57-45-86-45 11 19 20 47 27 85-42-27-88-27-130 0 7-38 16-66 27-85-29 0-57 15-86 45Z" fill="#ffcc33" opacity="0.92"/>
+  <text x="450" y="80" text-anchor="middle" fill="#fff4b8" font-family="Arial Black, Impact, sans-serif" font-size="44" letter-spacing="3">80S POWER PICK</text>
+  <text x="450" y="438" text-anchor="middle" fill="#ffffff" font-family="Arial Black, Impact, sans-serif" font-size="58">
+    <tspan x="450" dy="0">SIT AND SPIN</tspan>
+  </text>
+  <text x="450" y="590" text-anchor="middle" fill="#00f5ff" font-family="Arial, sans-serif" font-size="30" font-weight="800">
+    <tspan x="450" dy="0">TOY BOX</tspan>
+  </text>
+</svg>

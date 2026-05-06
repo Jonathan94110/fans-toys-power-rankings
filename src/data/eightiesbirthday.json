@@ -260,6 +260,36 @@
     "imgSource": "Local image from Wikipedia"
   },
   {
+    "id": "80S-SNACK-BIG-LEAGUE-CHEW",
+    "name": "Big League Chew",
+    "year": 1980,
+    "brand": "Snacks / Drinks",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Wrigley%27s_Big_League_Chew_bubble_gum.JPG/960px-Wrigley%27s_Big_League_Chew_bubble_gum.JPG",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Big_League_Chew",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SNACK-BUBBLE-TAPE",
+    "name": "Bubble Tape",
+    "year": 1988,
+    "brand": "Snacks / Drinks",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Hb_bubble_tape_logo.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Bubble_Tape",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SNACK-CANDY-CIGARETTES",
+    "name": "Candy Cigarettes",
+    "year": "1980s",
+    "brand": "Snacks / Drinks",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Candy_cigarette_display_in_shop.jpg/960px-Candy_cigarette_display_in_shop.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Candy_cigarette",
+    "imgSource": "Wikipedia"
+  },
+  {
     "id": "80S-CEREAL-CAPN-CRUNCH",
     "name": "Cap'n Crunch",
     "year": "1980s",
@@ -420,6 +450,16 @@
     "imgPosition": "center center"
   },
   {
+    "id": "80S-STORE-THE-MALL",
+    "name": "The Mall",
+    "year": "1980s",
+    "brand": "Stores",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/2018_Mall_of_America_01.jpg/960px-2018_Mall_of_America_01.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Shopping_mall",
+    "imgSource": "Wikipedia"
+  },
+  {
     "id": "80S-TECH-VCR",
     "name": "VCR",
     "year": "1980s",
@@ -477,6 +517,26 @@
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/VHS_logo.svg/960px-VHS_logo.svg.png",
     "imgPosition": "center center",
     "imgPage": "https://en.wikipedia.org/wiki/VHS",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TECH-MIXTAPES",
+    "name": "Mixtapes",
+    "year": "1980s",
+    "brand": "Tech and Media",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Compactcassette.jpg/960px-Compactcassette.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Cassette_tape",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-GAME-ATARI-2600",
+    "name": "Atari 2600",
+    "year": "1980s",
+    "brand": "Video Games",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Atari-2600-Wood-4Sw-Set.png/960px-Atari-2600-Wood-4Sw-Set.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Atari_2600",
     "imgSource": "Wikipedia"
   },
   {
@@ -840,6 +900,46 @@
     "imgSource": "Local image from Wikipedia"
   },
   {
+    "id": "80S-MOVIE-THEY-LIVE",
+    "name": "They Live",
+    "year": 1988,
+    "brand": "Movies",
+    "img": "https://upload.wikimedia.org/wikipedia/en/3/3d/1988They_Live_poster300.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/They_Live",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-MOVIE-ET",
+    "name": "E.T.",
+    "year": 1982,
+    "brand": "Movies",
+    "img": "https://upload.wikimedia.org/wikipedia/en/6/66/E_t_the_extra_terrestrial_ver3.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-HERO-SUPERMAN",
+    "name": "Superman",
+    "year": "1980s",
+    "brand": "Heroes / Comics",
+    "img": "https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Superman",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-HERO-BATMAN",
+    "name": "Batman",
+    "year": 1989,
+    "brand": "Heroes / Comics",
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/5a/Batman_%281989%29_theatrical_poster.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Batman_(1989_film)",
+    "imgSource": "Wikipedia"
+  },
+  {
     "id": "80S-ANIME-AKIRA",
     "name": "Akira",
     "year": 1988,
@@ -870,6 +970,16 @@
     "imgSource": "Wikipedia"
   },
   {
+    "id": "80S-LEGEND-LL-COOL-J",
+    "name": "LL Cool J",
+    "year": "1980s",
+    "brand": "80s Legends",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/LLCoolJ-byPhilipRomano.jpg/960px-LLCoolJ-byPhilipRomano.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/LL_Cool_J",
+    "imgSource": "Wikipedia"
+  },
+  {
     "id": "80S-LEGEND-PRINCE",
     "name": "Prince",
     "year": "1980s",
@@ -888,6 +998,16 @@
     "imgPosition": "center top",
     "imgPage": "https://en.wikipedia.org/wiki/Eddie_Murphy",
     "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-LEGEND-ARNOLD-SCHWARZENEGGER",
+    "name": "Arnold Schwarzenegger",
+    "year": "1980s",
+    "brand": "80s Legends",
+    "img": "/eighties-images/80s-legend-arnold-schwarzenegger.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://commons.wikimedia.org/wiki/File:Schwarzenegger_1984.jpg",
+    "imgSource": "Local image from Wikimedia Commons"
   },
   {
     "id": "80S-LEGEND-MR-T",
@@ -1080,6 +1200,56 @@
     "imgPosition": "center top"
   },
   {
+    "id": "80S-TV-SATURDAY-MORNING-CARTOONS",
+    "name": "Saturday Morning Cartoons",
+    "year": "1980s",
+    "brand": "TV Shows",
+    "img": "/eighties-images/80s-tv-saturday-morning-cartoons.svg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Saturday-morning_cartoon",
+    "imgSource": "Local stage art"
+  },
+  {
+    "id": "80S-TV-MTV",
+    "name": "MTV",
+    "year": 1981,
+    "brand": "Tech and Media",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/MTV",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TV-READING-RAINBOW",
+    "name": "Reading Rainbow",
+    "year": 1983,
+    "brand": "TV Shows",
+    "img": "https://upload.wikimedia.org/wikipedia/en/8/88/Reading_Rainbow_%28logo%29.png",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Reading_Rainbow",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TV-SILVER-SPOONS",
+    "name": "Silver Spoons",
+    "year": 1982,
+    "brand": "TV Shows",
+    "img": "https://upload.wikimedia.org/wikipedia/en/a/af/Silver_Spoons_Intro.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/Silver_Spoons",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TV-GI-JOE-PSA",
+    "name": "G.I. Joe PSA",
+    "year": "1980s",
+    "brand": "TV Shows",
+    "img": "https://upload.wikimedia.org/wikipedia/en/e/e5/G.I._Joe_Cartoon_1985_Title.jpg",
+    "imgPosition": "center top",
+    "imgPage": "https://en.wikipedia.org/wiki/G.I._Joe:_A_Real_American_Hero_(1983_TV_series)",
+    "imgSource": "Wikipedia"
+  },
+  {
     "id": "80S-FOOD-HAPPY-MEALS",
     "name": "Happy Meals",
     "year": "1980s",
@@ -1200,6 +1370,56 @@
     "imgPosition": "center center"
   },
   {
+    "id": "80S-AFTER-SCHOOL-THE-PARK",
+    "name": "The Park",
+    "year": "1980s",
+    "brand": "After School",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Argos_playground.jpg/960px-Argos_playground.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Playground",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-AFTER-SCHOOL-BASEBALL",
+    "name": "Playing Baseball",
+    "year": "1980s",
+    "brand": "After School",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Tommy_Milone_gives_up_a_home_run_to_Mike_Trout_on_May_21%2C_2017.jpg/960px-Tommy_Milone_gives_up_a_home_run_to_Mike_Trout_on_May_21%2C_2017.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Baseball",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-AFTER-SCHOOL-FOOTBALL",
+    "name": "Playing Football",
+    "year": "1980s",
+    "brand": "After School",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Larry_Fitzgerald_catches_TD_at_2009_Pro_Bowl.jpg/960px-Larry_Fitzgerald_catches_TD_at_2009_Pro_Bowl.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/American_football",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-AFTER-SCHOOL-BASKETBALL",
+    "name": "Playing Basketball",
+    "year": "1980s",
+    "brand": "After School",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Steph_Curry_%2851915116957%29.jpg/960px-Steph_Curry_%2851915116957%29.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Basketball",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-AFTER-SCHOOL-BOYS-GIRLS-CLUB",
+    "name": "Boys & Girls Club",
+    "year": "1980s",
+    "brand": "After School",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Boys_%26_Girls_Club_9405.jpg/960px-Boys_%26_Girls_Club_9405.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://commons.wikimedia.org/wiki/File:Boys_%26_Girls_Club_9405.jpg",
+    "imgSource": "Wikimedia Commons file"
+  },
+  {
     "id": "80S-SHOES-AIR-JORDANS",
     "name": "Air Jordans",
     "year": "1980s",
@@ -1238,5 +1458,195 @@
     "imgPosition": "center center",
     "imgPage": "https://en.wikipedia.org/wiki/British_Knights",
     "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-HOME-WATER-BEDS",
+    "name": "Water Beds",
+    "year": "1980s",
+    "brand": "Bedroom / Home",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Waterbed_Lectus.jpg/960px-Waterbed_Lectus.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Waterbed",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-HOME-GRANDMAS-PLASTIC-COUCH",
+    "name": "Grandma's Plastic Couch",
+    "year": "1980s",
+    "brand": "Bedroom / Home",
+    "img": "/eighties-images/80s-home-grandmas-plastic-couch.png",
+    "imgPosition": "center center",
+    "imgPage": "/eighties-images/80s-home-grandmas-plastic-couch.png",
+    "imgSource": "User-provided image"
+  },
+  {
+    "id": "80S-TOY-RUBIKS-CUBE",
+    "name": "Rubik's Cube",
+    "year": 1980,
+    "brand": "Toy Box",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/6/61/Rubiks_cube_solved.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Rubik%27s_Cube",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TOY-VIEW-MASTER",
+    "name": "View-Master",
+    "year": "1980s",
+    "brand": "Toy Box",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/View-Master_Model_G.jpg/960px-View-Master_Model_G.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/View-Master",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SCHOOL-TRAPPER-KEEPERS",
+    "name": "Trapper Keepers",
+    "year": "1980s",
+    "brand": "School Stuff",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Trapper_Keeper.jpg/960px-Trapper_Keeper.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://commons.wikimedia.org/wiki/File:Trapper_Keeper.jpg",
+    "imgSource": "Wikimedia Commons file"
+  },
+  {
+    "id": "80S-SCHOOL-SCRATCH-SNIFF-STICKERS",
+    "name": "Scratch-and-Sniff Stickers",
+    "year": "1980s",
+    "brand": "School Stuff",
+    "img": "/eighties-images/80s-school-scratch-sniff-stickers.svg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Scratch_and_sniff",
+    "imgSource": "Local stage art"
+  },
+  {
+    "id": "80S-SCHOOL-CHOCOLATE-MILK",
+    "name": "Public School Chocolate Milk",
+    "year": "1980s",
+    "brand": "School Lunch",
+    "img": "/eighties-images/80s-school-chocolate-milk.png",
+    "imgPage": "/eighties-images/80s-school-chocolate-milk.png",
+    "imgSource": "User-provided image",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-SCHOOL-SQUARE-PIZZA",
+    "name": "Public School Square Pizza",
+    "year": "1980s",
+    "brand": "School Lunch",
+    "img": "/eighties-images/80s-school-square-pizza.png",
+    "imgPage": "/eighties-images/80s-school-square-pizza.png",
+    "imgSource": "User-provided image",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-SCHOOL-CLASSROOM-TV",
+    "name": "Classroom TV Cart",
+    "year": "1980s",
+    "brand": "School Stuff",
+    "img": "/eighties-images/80s-school-classroom-tv-cart.png",
+    "imgPage": "/eighties-images/80s-school-classroom-tv-cart.png",
+    "imgSource": "User-provided image",
+    "imgPosition": "center center"
+  },
+  {
+    "id": "80S-TOY-GARBAGE-PAIL-KIDS",
+    "name": "Garbage Pail Kids",
+    "year": 1985,
+    "brand": "Toy Box",
+    "img": "https://upload.wikimedia.org/wikipedia/en/4/43/GPK_8a_adambomb.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Garbage_Pail_Kids",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-FAD-SLAP-BRACELETS",
+    "name": "Slap Bracelets",
+    "year": "1980s",
+    "brand": "Fashion / Fads",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Slapbracelet-example-2018.webm/960px--Slapbracelet-example-2018.webm.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Slap_bracelet",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TOY-BIG-WHEEL",
+    "name": "Big Wheel",
+    "year": "1980s",
+    "brand": "Toy Box",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Boy-on-big-wheel-2008.jpg/960px-Boy-on-big-wheel-2008.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Big_Wheel_(tricycle)",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TOY-GLOW-WORM",
+    "name": "Glow Worm",
+    "year": 1982,
+    "brand": "Toy Box",
+    "img": "https://upload.wikimedia.org/wikipedia/en/1/1e/Original-glowworm-photo.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Glo_Worm",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-SCHOOL-PAPER-FORTUNE-TELLERS",
+    "name": "Paper Fortune Tellers",
+    "year": "1980s",
+    "brand": "School Stuff",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Cootie_catcher.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Paper_fortune_teller",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-GAME-OREGON-TRAIL",
+    "name": "Oregon Trail",
+    "year": "1980s",
+    "brand": "Video Games",
+    "img": "https://upload.wikimedia.org/wikipedia/en/e/ef/Oregon_Trail_Logo.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/The_Oregon_Trail_(series)",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TOY-KOOSH-BALL",
+    "name": "Koosh Ball",
+    "year": 1987,
+    "brand": "Toy Box",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Koosh-Ball-TriColor.jpg/960px-Koosh-Ball-TriColor.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Koosh_ball",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TOY-CHIA-PET",
+    "name": "Chia Pet",
+    "year": "1980s",
+    "brand": "Toy Box",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Alligator_Chia_Pet.jpg/960px-Alligator_Chia_Pet.jpg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Chia_Pet",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TOY-POGO-BALL",
+    "name": "Pogo Ball",
+    "year": "1980s",
+    "brand": "Toy Box",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Lolobal.png",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Pogo_Ball",
+    "imgSource": "Wikipedia"
+  },
+  {
+    "id": "80S-TOY-SIT-N-SPIN",
+    "name": "Sit and Spin",
+    "year": "1980s",
+    "brand": "Toy Box",
+    "img": "/eighties-images/80s-toy-sit-n-spin.svg",
+    "imgPosition": "center center",
+    "imgPage": "https://en.wikipedia.org/wiki/Sit_and_Spin",
+    "imgSource": "Local stage art"
   }
 ]
